@@ -1,0 +1,646 @@
+fileFormatVersion: 2
+guid: fd4e70915b730644f8cad1b458faa186
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6378486357638974081
+    second: backgrnd3_0
+  - first:
+      213: 4252141776508933373
+    second: backgrnd3_1
+  - first:
+      213: 4683159063495393921
+    second: backgrnd3_2
+  - first:
+      213: 8152860084211633330
+    second: backgrnd3_3
+  - first:
+      213: 8814910678232426316
+    second: backgrnd3_4
+  - first:
+      213: -4926344457172771275
+    second: backgrnd3_5
+  - first:
+      213: -3416441626464758277
+    second: backgrnd3_6
+  - first:
+      213: 2964142377504088097
+    second: backgrnd3_7
+  - first:
+      213: 4414432201760908869
+    second: backgrnd3_8
+  - first:
+      213: 1944703637132725493
+    second: backgrnd3_9
+  - first:
+      213: 2758012751886131810
+    second: backgrnd3_10
+  - first:
+      213: -230997145367176881
+    second: backgrnd3_11
+  - first:
+      213: 7564727465508084285
+    second: backgrnd3_12
+  - first:
+      213: 4715625310211686332
+    second: backgrnd3_13
+  - first:
+      213: -2534985755187430899
+    second: backgrnd3_14
+  - first:
+      213: -3982250179111775432
+    second: backgrnd3_15
+  - first:
+      213: 4406210315494006369
+    second: backgrnd3_16
+  - first:
+      213: -5067533408926889076
+    second: backgrnd3_17
+  - first:
+      213: -3161773333173156579
+    second: backgrnd3_18
+  - first:
+      213: 595961711443530675
+    second: backgrnd3_19
+  - first:
+      213: 7851047476860178676
+    second: backgrnd3_20
+  - first:
+      213: -718366271550910652
+    second: backgrnd3_21
+  - first:
+      213: 3974954220451405640
+    second: backgrnd3_22
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: backgrnd3_0
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 238
+        width: 103
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75f040d3701b77a0800000000000000
+      internalID: -6378486357638974081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 220
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4d96bba64a20b30800000000000000
+      internalID: 4252141776508933373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 204
+        width: 220
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1824b461b5cedf040800000000000000
+      internalID: 4683159063495393921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 168
+        width: 203
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc45e60d07c42170800000000000000
+      internalID: 8152860084211633330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_5
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 168
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e900d21db12abb0800000000000000
+      internalID: -4926344457172771275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 168
+        width: 165
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5d5ba117c5690d0800000000000000
+      internalID: -3416441626464758277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 126
+        width: 202
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12020d2a9cfb22920800000000000000
+      internalID: 2964142377504088097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 126
+        width: 165
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5462107e2b6334d30800000000000000
+      internalID: 4414432201760908869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 126
+        width: 202
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcc4bc87a9fcfa10800000000000000
+      internalID: 1944703637132725493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 126
+        width: 165
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262ab2a3cfd664620800000000000000
+      internalID: 2758012751886131810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 84
+        width: 202
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f499246f1555bccf0800000000000000
+      internalID: -230997145367176881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 84
+        width: 165
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a104cdc8f4bf860800000000000000
+      internalID: 7564727465508084285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 84
+        width: 202
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf32053c34417140800000000000000
+      internalID: 4715625310211686332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_14
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 84
+        width: 165
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ab067f2ebe1dcd0800000000000000
+      internalID: -2534985755187430899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 42
+        width: 202
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8339e4b9f843cb8c0800000000000000
+      internalID: -3982250179111775432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 42
+        width: 165
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e9ea4dfe0062d30800000000000000
+      internalID: 4406210315494006369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_17
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 42
+        width: 202
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b0d79a6318ca9b0800000000000000
+      internalID: -5067533408926889076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_18
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 42
+        width: 165
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1549efb7ef1f14d0800000000000000
+      internalID: -3161773333173156579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 202
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3535ed408454800800000000000000
+      internalID: 595961711443530675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 165
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f05af4651684fc60800000000000000
+      internalID: 7851047476860178676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 202
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f069d9ea9d706f0800000000000000
+      internalID: -718366271550910652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrnd3_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 165
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f1274adcfd92730800000000000000
+      internalID: 3974954220451405640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

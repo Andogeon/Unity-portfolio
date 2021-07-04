@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Slot
+  - Arm
+  - Weapon
+  - Clothes
+  - foot
+  - Parts
+  - Box
+  - Attack Effect
+  - NPC
+  - Inventory
+  - Quest
+  - Jump Stand
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - ICon
+  - Copy
+  - Invertory Slot
+  - Equip Slot
+  - Line
+  - Monter
+  - Connect
+  - Player
+  - Foot
+  - Box
+  - Monter Box
+  - Item
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BACKGROUND
+    uniqueID: 2891403283
+    locked: 0
+  - name: OBJECT
+    uniqueID: 3999517577
+    locked: 0
+  - name: 1
+    uniqueID: 2842089681
+    locked: 0
+  - name: 2
+    uniqueID: 2040845179
+    locked: 0
+  - name: 3
+    uniqueID: 2710792933
+    locked: 0
+  - name: 4
+    uniqueID: 3613635671
+    locked: 0
+  - name: 5
+    uniqueID: 1458913457
+    locked: 0
+  - name: 6
+    uniqueID: 634659591
+    locked: 0

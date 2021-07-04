@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/00. Scenes/Character Select Scene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/00. Scenes/Maple Start Scene.unity
+    guid: 326ef9a4aced55b4d8b10cd3e4b9ca4d
+  - enabled: 1
+    path: Assets/00. Scenes/Maple Hill.unity
+    guid: 4dc327f8667a50e44a5763943f96b569
+  - enabled: 1
+    path: Assets/00. Scenes/Snail garden.unity
+    guid: 64bd52f6c4b266f4dae7367d4fa7c89d
+  - enabled: 1
+    path: Assets/00. Scenes/Small forest.unity
+    guid: 8c2fe91a63683c84aa8f5c8e9a9c11a7
+  - enabled: 1
+    path: Assets/00. Scenes/Dangerous forest.unity
+    guid: 3a756c25c6dce324e8c2a5edb8a4c472
+  - enabled: 1
+    path: Assets/00. Scenes/Amherst.unity
+    guid: bbd4ba8898865af4d95d272dcd6768ef
+  - enabled: 1
+    path: Assets/00. Scenes/Adventurer Training Center.unity
+    guid: eeaee26593ad1d64cab5fb2c07b449fd
+  - enabled: 1
+    path: Assets/00. Scenes/Crossroads.unity
+    guid: 1feca4f2e9496f945a6fe7c2b2c1000e
+  - enabled: 1
+    path: Assets/00. Scenes/South Ferry.unity
+    guid: 8ec4b16b8a9f8804f966c2e4b850d6cc
+  - enabled: 1
+    path: Assets/00. Scenes/Marina.unity
+    guid: 009b4a2a052de084e822e71393c84f55
+  - enabled: 1
+    path: Assets/00. Scenes/Onboard Shangri-La.unity
+    guid: 78c7bc6282fccd74484c6c6e2e62ec65
+  m_configObjects: {}
