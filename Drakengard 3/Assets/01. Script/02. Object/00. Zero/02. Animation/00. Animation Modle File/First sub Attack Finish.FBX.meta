@@ -1,0 +1,453 @@
+fileFormatVersion: 2
+guid: a5192a623e15b4d40b0677e8f2a77370
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: One Sub Attack End
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: One Sub Attack End
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_ROOT
+        weight: 1
+      - path: M_ROOT/M_CENTER
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/C_MANT1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/C_MANT1/C_MANT2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/C_MANT1/C_MANT2/C_MANT3
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/C_MANT1/C_MANT2/C_MANT3/C_MANT4
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_BUST
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/F_MANT1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/F_MANT1/F_MANT2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/F_MANT1/F_MANT2/F_MANT3
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER11
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER11/L_FINGER12
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER11/L_FINGER12/L_FINGER13
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER21
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER21/L_FINGER22
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER21/L_FINGER22/L_FINGER23
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER31
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER31/L_FINGER32
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER31/L_FINGER32/L_FINGER33
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER41
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER41/L_FINGER42
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER41/L_FINGER42/L_FINGER43
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER51
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER51/L_FINGER52
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_FINGER51/L_FINGER52/L_FINGER53
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_ARM2/L_Hand/L_WRIST
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CBONE/L_ARM1/L_SHOULDER
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_CHESTRIBBON
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_MANT1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_MANT1/L_MANT2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_MANT1/L_MANT2/L_MANT3
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/L_MANT1/L_MANT2/L_MANT3/L_MANT4
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/B_HAIR1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/B_HAIR1/B_HAIR2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/B_HAIR3
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/B_HAIR4
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/B_INNNERHAIR1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/B_INNNERHAIR2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/C_ULIP1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/F_HAIR1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/F_HAIR2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/FLOWER1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/FLOWER2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/JAW
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/JAW/C_LLIP1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/JAW/L_LLIP1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/JAW/L_TEETH
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/JAW/R_LLIP1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/JAW/TANGUE
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_BROW1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_BROW2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_BROW3
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_CHEEK1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_CHEEK2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_ELID
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_ELID/L_LASH
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/l_eye
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/l_eye/L_LIGHT
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_FRONTHAIR1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_FRONTHAIR1/L_FRONTHAIR2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_HAIR1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_HAIR1/L_HAIR2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_INNERHAIR1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_INNERHAIR1/L_INNERHAIR2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_LLID
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_MOUTH1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_NOSE
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_RIBBON
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_TALE1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_TALE1/L_TALE2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_TALE1/L_TALE2/L_TALE3
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_TALE1/L_TALE2/L_TALE3/L_TALE4
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_ULIP1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_ULIP2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/L_ULIP2/L_LLIP2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_BROW1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_BROW2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_BROW3
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_CHEEK1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_CHEEK2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_ELID
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_ELID/R_LASH
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/r_eye
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/r_eye/R_LIGHT
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_FRONTHAIR1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_FRONTHAIR1/R_FRONTHAIR2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_HAIR1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_HAIR1/R_HAIR2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_INNERHAIR1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_INNERHAIR1/R_INNERHAIR2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_LLID
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_MOUTH1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_NOSE
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_RIBBON
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_TALE1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_TALE1/R_TALE2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_TALE1/R_TALE2/R_TALE3
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_TALE1/R_TALE2/R_TALE3/R_TALE4
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_ULIP1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_ULIP2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/R_ULIP2/R_LLIP2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/NECK/HEAD/U_TEETH
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_BUST
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER11
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER11/R_FINGER12
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER11/R_FINGER12/R_FINGER13
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER21
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER21/R_FINGER22
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER21/R_FINGER22/R_FINGER23
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER31
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER31/R_FINGER32
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER31/R_FINGER32/R_FINGER33
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER41
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER41/R_FINGER42
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER41/R_FINGER42/R_FINGER43
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER51
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER51/R_FINGER52
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_FINGER51/R_FINGER52/R_FINGER53
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_Hand/R_WRIST
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_SLEEVEAS
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_SLEEVEAS/R_SLEEVE1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_SLEEVEAS/R_SLEEVE1/R_SLEEVE2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_SLEEVEAS/R_SLEEVE1/R_SLEEVE2/R_SLEEVE3
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_ARM2/R_SLEEVEAS/R_SLEEVE1/R_SLEEVE2/R_SLEEVE3/R_SLEEVE4
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CBONE/R_ARM1/R_SHOULDER
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_CHESTRIBBON
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_MANT1
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_MANT1/R_MANT2
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_MANT1/R_MANT2/R_MANT3
+        weight: 1
+      - path: M_ROOT/M_CENTER/BODY1/BODY2/R_MANT1/R_MANT2/R_MANT3/R_MANT4
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/B_SKIRT1
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/B_SKIRT1/B_SKIRT2
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/B_SKIRT3
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/B_SKIRT3/B_SKIRT4
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/F_SKIRT1
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/F_SKIRT1/F_SKIRT2
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/F_SKIRT3
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/F_SKIRT3/F_SKIRT4
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/L_LEG1
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/L_LEG1/L_LEG2
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/L_LEG1/L_LEG2/L_FOOT1
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/L_LEG1/L_LEG2/L_FOOT1/L_FOOT2
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/R_LEG1
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/R_LEG1/R_LEG2
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/R_LEG1/R_LEG2/R_FOOT1
+        weight: 1
+      - path: M_ROOT/M_CENTER/WAIST/R_LEG1/R_LEG2/R_FOOT1/R_FOOT2
+        weight: 1
+      - path: M_ROOT/M_WP1
+        weight: 1
+      - path: M_ROOT/M_WP2
+        weight: 1
+      - path: PL_00
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: M_ROOT
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
