@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Face : PART
+// 케릭터 커스터마이징을 위해서 준비한 클래스입니다.
+
+public class Face : PART // 얼굴의 최상위 계층 클래스
 {
     private void Awake()
     {

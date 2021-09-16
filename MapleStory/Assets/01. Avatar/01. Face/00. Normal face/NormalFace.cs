@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NormalFace : FACE
+public class NormalFace : FACE // 평범한 얼굴
 {
     public override Sprite GetSprite()
     {

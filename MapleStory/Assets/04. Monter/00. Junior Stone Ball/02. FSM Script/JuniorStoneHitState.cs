@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// 애니메이터 주니어스톤볼 피격 모션 클래스입니다.
+
 public class JuniorStoneHitState : StateMachineBehaviour
 {
     private JuniorStoneBall m_pStoneBall = null;
@@ -14,6 +16,7 @@ public class JuniorStoneHitState : StateMachineBehaviour
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        // 해당 오브젝트의 체력이 0보다 작아진다면 사망으로 애니메이션 변경 
         if (m_pStoneBall.AccessHp <= 0.0f)
         {
             animator.SetBool("RUN", false);

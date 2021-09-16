@@ -2,8 +2,46 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Other_Inventory : Inventory
+// Consumption_Inventory 클래스와 동일하게 아이콘의 복사본 생성, 인벤토리창의 이동 함수는 동일합니다.
+
+// 기타 인벤토티에서는 사용하거나 착용하는 기능을 따로 존재하지는 않고 퀘스트에서 기타 아이템의 정보를 찾기 위해 만든 클래스입니다.
+
+public class Other_Inventory : Inventory // 기타 장비 인벤토리 클래스입니다.
 {
+    public void InsertItem(GameObject _InstanceObject)
+    {
+        ICON _InstanceICon = _InstanceObject.GetComponent<ICON>();
+
+        if (m_pSlots == null) // 슬롯이 존재하지 않는다면 
+            m_pSlots = GetComponentsInChildren<Slot>(); // 슬롯을 찾는다 
+
+        for (int i = 0; i < m_pSlots.Length; ++i) // 슬롯에 길이 만큼 순회
+        {
+            if (m_pSlots[i].AccessICon != null) // 해당 슬롯에 아이콘이 존재하고 
+            {
+                // 만약 슬롯에 아이콘 게임오브젝트 이름이 인자로 들어오는 게임오브젝트 이름과 같다면 
+                if (m_pSlots[i].AccessICon.name == _InstanceICon.name) 
+                {
+                    m_pSlots[i].AccessICon.AccessIconCount += 1; // 숫자를 늘리고 
+
+                    Destroy(_InstanceObject); // 인자로 들어오는 게임오브젝트를 삭제한다 
+
+                    break;
+                }
+            }
+            else if (m_pSlots[i].AccessICon == null) // 해당 슬롯에 아이콘이 존재하지 않는다면 
+            {
+                _InstanceICon.AccessIConState = ICONSTATE.ICON_INVENTORY;
+
+                _InstanceICon.AccessMySlot = m_pSlots[i];
+
+                m_pSlots[i].AccessICon = _InstanceICon; // 해당 슬롯에 아이콘 정보를 인자로 들어오는 아이콘으로 넣어준다 
+
+                return;
+            }
+        }
+    }
+
     [SerializeField] LayerMask _DivisionLayer = 0;
 
     private bool m_bIsMoving = false;
@@ -112,40 +150,38 @@ public class Other_Inventory : Inventory
         }
     }
 
-    public void InsertItem(GameObject _InstanceObject)
-    {
-        ICON _InstanceICon = _InstanceObject.GetComponent<ICON>();
+    //public void InsertItem(GameObject _InstanceObject)
+    //{
+    //    ICON _InstanceICon = _InstanceObject.GetComponent<ICON>(); 
 
-        if(m_pSlots == null)
-            m_pSlots = GetComponentsInChildren<Slot>();
+    //    if(m_pSlots == null) // 슬롯이 존재하지 않는다면 
+    //        m_pSlots = GetComponentsInChildren<Slot>(); // 슬롯을 찾는다 
 
-        // 복사본 아이콘이 필요하네 ?? ㅡㅡ 
+    //    for (int i = 0; i < m_pSlots.Length; ++i) // 슬롯에 길이 만큼 순회
+    //    {
+    //        if (m_pSlots[i].AccessICon != null) // 해당 슬롯에 아이콘이 존재하고 
+    //        {
+    //            if (m_pSlots[i].AccessICon.name == _InstanceICon.name) // 만약 슬롯에 아이콘 게임오브젝트 이름이 인자로 들어오는 게임오브젝트 이름과 같다면 
+    //            {
+    //                m_pSlots[i].AccessICon.AccessIconCount += 1; // 숫자를 늘리고 
 
-        for (int i = 0; i < m_pSlots.Length; ++i)
-        {
-            if (m_pSlots[i].AccessICon != null)
-            {
-                if (m_pSlots[i].AccessICon.name == _InstanceICon.name)
-                {
-                    m_pSlots[i].AccessICon.AccessIconCount += 1;
+    //                Destroy(_InstanceObject); // 인자로 들어오는 게임오브젝트를 삭제한다 
 
-                    Destroy(_InstanceObject);
+    //                break;
+    //            }
+    //        }
+    //        else if (m_pSlots[i].AccessICon == null) // 해당 슬롯에 아이콘이 존재하지 않는다면 
+    //        {
+    //            _InstanceICon.AccessIConState = ICONSTATE.ICON_INVENTORY;
 
-                    break;
-                }
-            }
-            else if (m_pSlots[i].AccessICon == null)
-            {
-                _InstanceICon.AccessIConState = ICONSTATE.ICON_INVENTORY;
+    //            _InstanceICon.AccessMySlot = m_pSlots[i]; 
 
-                _InstanceICon.AccessMySlot = m_pSlots[i];
+    //            m_pSlots[i].AccessICon = _InstanceICon; // 해당 슬롯에 아이콘 정보를 인자로 들어오는 아이콘으로 넣어준다 
 
-                m_pSlots[i].AccessICon = _InstanceICon; // 이걸 날려야 한다 !! 
-
-                return;
-            }
-        }
-    }
+    //            return;
+    //        }
+    //    }
+    //}
 
     public void SwapItem(RaycastHit2D _HitCast)
     {

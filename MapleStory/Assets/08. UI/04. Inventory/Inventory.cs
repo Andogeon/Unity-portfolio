@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Inventory : MonoBehaviour
+public class Inventory : MonoBehaviour // 인벤토리의 최상위 부모 클래스입니다.
 {
     [SerializeField] private AudioClip _StartDropClickSound = null;
     
@@ -118,8 +118,6 @@ public class Inventory : MonoBehaviour
         if (null == m_pConsumptionInventory)
             m_pConsumptionInventory = transform.Find("Consumption Window").GetComponent<Consumption_Inventory>();
 
-        // 여기서 수정 들어가야지 ?ㅋ
-
         m_pConsumptionInventory.InsertItem(_FieldObject);
     }
 
@@ -127,8 +125,6 @@ public class Inventory : MonoBehaviour
     {
         if (null == _FieldObject)
             return;
-
-        // 여기서 수정 들어가야지 ?ㅋ
 
         if(null == Other_Inventory)
             Other_Inventory = transform.Find("Other Window").GetComponent<Other_Inventory>();

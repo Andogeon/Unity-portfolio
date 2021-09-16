@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// 게임 오브젝트 풀링 매니저 클래스입니다.
 public class GameobjectManager : Singleton<GameobjectManager>
 {
     Dictionary<string, GameObject> m_pOriginalGameObject = new Dictionary<string, GameObject>(); // 원본 게임 오브젝트 객체
@@ -96,8 +97,6 @@ public class GameobjectManager : Singleton<GameobjectManager>
                 _PoolingGameobjectList[i].SetActive(true);
 
                 _PoolingGameobjectList[i].transform.SetParent(Parent);
-
-                //_PoolingGameobjectList[i].transform.parent = Parent;
 
                 if (_PoolingGameobjectList[i].transform.parent != null)
                     _PoolingGameobjectList[i].transform.localPosition = _localPosition;

@@ -10,15 +10,9 @@ public class Foot : PART
 
     [SerializeField] private Vector3 _DownRayDirection = Vector3.zero;
 
-    //[SerializeField] private float m_fLength = 0.01f; // 1값으로 설정 해놈
-
     private Player m_pPlayer = null;
 
-    //private Rigidbody2D m_pPlayerRigid = null;
-
     private BoxCollider2D m_pCollision = null;
-
-    
 
     private void Start()
     {
@@ -92,41 +86,6 @@ public class Foot : PART
         }
     }
 }
-
-
-//private void Update()
-//{
-//    // 이거 안되면 착지 레이어 쏘면서 착지가 되었을 때 라인이랑 발에 있는 레이랑 충돌여부 확인해야 됨 !! 
-
-//    //Ray2D _Ray2D = new Ray2D(transform.position + _DownRayDirection, Vector3.down);
-
-//    //Debug.DrawRay(_Ray2D.origin, _Ray2D.direction * m_fLength, Color.red);
-
-//    if (null == m_pPlayer)
-//        return;
-
-//    if (m_pPlayer.AccessTerrainLine == false)
-//        LadderDown();
-//}
-
-//private void LadderDown()
-//{
-//    Ray2D _Ray2D = new Ray2D(transform.position + _DownRayDirection, Vector3.down);
-
-//    RaycastHit2D _Hit2D = Physics2D.Raycast(_Ray2D.origin, _Ray2D.direction, m_fLength, _LayerMask);
-
-//    if (_Hit2D.collider != null)
-//        m_pPlayer.AccessTerrainLine = true;
-//}
-
-
-
-
-
-
-
-
-
 
 
 //using System.Collections;

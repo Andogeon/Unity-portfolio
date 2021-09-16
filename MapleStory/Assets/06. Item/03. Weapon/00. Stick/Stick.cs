@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stick : ITEM
+public class Stick : ITEM // 몽둥이 클래스
 {
     [SerializeField] private AudioClip _AttackSound = null;
 
@@ -30,10 +30,7 @@ public class Stick : ITEM
 
     private void Start()
     {
-        //if (gameObject.layer == LayerMask.NameToLayer("Copy"))
-        //    return;
-
-        m_fOldAttack = m_fAttack = 30.0f;
+        m_fOldAttack = m_fAttack = 100.0f;
 
         m_pSoundManager.AddSound("Mace Attack Sound", _AttackSound, SoundType.Sound_Effect);
 
@@ -62,12 +59,18 @@ public class Stick : ITEM
             m_pPlayer = m_pBodySpriteRenderer.transform.parent.GetComponent<Player>();
     }
 
-    private void Update()
+    // 무기는 다르게 각 상태마다 레이어 소팅을 별도로 제어하여 무기를 들게 했습니다.
+
+    // 레이어 소팅을 제어하지 않을 시 손 위에 무기가 있거나 점프 할 때 무기가 머리카락에 파묻히는 경우, 옷에 파묻히는 경우 등..
+
+    // 이러한 문제를 해결하기 위해 레이어 소팅을 제어하게 했습니다.
+
+    public void Update()
     {
-        if (null == m_pBodyObejct || m_eItemModeType == ITEMMODETYPE.ITEM_INVENTORY)
+        if (null == m_pBodyObejct || m_eItemModeType == ITEMMODETYPE.ITEM_INVENTORY) // 몸체 오브젝트나 해당 아이템이 인벤토리에 있다면 
         {
-            if (transform.parent == null)
-                return;
+            if (transform.parent == null) // 핸들이 부모가 아니라면 
+                return; // 종료 
 
             GameObject _Obejct = transform.parent.gameObject;
 
@@ -81,75 +84,52 @@ public class Stick : ITEM
                 m_pPlayer = m_pBodySpriteRenderer.transform.parent.GetComponent<Player>();
         }
 
-        if (m_pPlayer != null && m_pPlayer.AccessPlayerLevelUp == true)
+        if (m_pPlayer != null && m_pPlayer.AccessPlayerLevelUp == true) // 플레이어가 레벨업을 할시 
         {
-            m_fAttack = m_fOldAttack + m_pPlayer.AccessPlayerAttack;
+            m_fAttack = m_fOldAttack + m_pPlayer.AccessPlayerAttack; // 무기 공격력을 갱신한다.
 
-            m_pPlayer.AccessPlayerLevelUp = false;
+            m_pPlayer.AccessPlayerLevelUp = false; 
         }
 
-        m_eAvatarState = m_pBodyObejct.GetAvatarState;
+        m_eAvatarState = m_pBodyObejct.GetAvatarState; // 몸체 오브젝트의 상태 값을 받아온다.
 
-        switch (m_eAvatarState)
-        {
-            case AVATARSTATES.AVATAR_IDLE:
-                //m_pSpriteRenderer.sortingLayerName = "2";
-                m_pSpriteRenderer.sortingLayerName = "4";
-                _Animations[0].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
-                break;
-            case AVATARSTATES.AVATAR_RUN:
-                //m_pSpriteRenderer.sortingLayerName = "2";
-                m_pSpriteRenderer.sortingLayerName = "4";
-                _Animations[1].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
-                break;
-            case AVATARSTATES.AVATAR_FIRSTNORMALATTACK:
-                m_pSpriteRenderer.sortingLayerName = "1";
-                _Animations[2].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
-                break;
-            case AVATARSTATES.AVATAR_SECONDNORMALATTACK:
-                m_pSpriteRenderer.sortingLayerName = "1";
-                _Animations[3].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
-                break;
-            case AVATARSTATES.AVATAR_THIRDNORMALATTACK:
-                m_pSpriteRenderer.sortingLayerName = "1";
-                _Animations[4].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
-                break;
-            case AVATARSTATES.AVATAR_HIT:
-            case AVATARSTATES.AVATAR_JUMP:
-                m_pSpriteRenderer.sortingLayerName = "4";
-                _Animations[5].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
-                break;
-        }
-    }
-
-    private void LateUpdate()
-    {
-        if (null == m_pBodyObejct || m_eItemModeType == ITEMMODETYPE.ITEM_INVENTORY)
-            return;
-
-        switch (m_eAvatarState)
+        switch (m_eAvatarState) // 각 상태 별로 레이어 소팅, 로컬 좌표 변경, 스프라이트 변경하게 분기문을 구성 
         {
             case AVATARSTATES.AVATAR_IDLE:
                 IDLE();
+                _Animations[0].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                m_pSpriteRenderer.sortingLayerName = "2";
                 break;
             case AVATARSTATES.AVATAR_RUN:
                 RUN();
+                _Animations[1].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                m_pSpriteRenderer.sortingLayerName = "2";
                 break;
             case AVATARSTATES.AVATAR_FIRSTNORMALATTACK:
                 NormalAttack();
+                _Animations[2].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                m_pSpriteRenderer.sortingLayerName = "1";
                 break;
             case AVATARSTATES.AVATAR_SECONDNORMALATTACK:
                 NormalAttack();
+                _Animations[3].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                m_pSpriteRenderer.sortingLayerName = "1";
                 break;
             case AVATARSTATES.AVATAR_THIRDNORMALATTACK:
                 NormalAttack();
+                _Animations[4].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                m_pSpriteRenderer.sortingLayerName = "1";
                 break;
             case AVATARSTATES.AVATAR_HIT:
             case AVATARSTATES.AVATAR_JUMP:
                 Jump();
+                _Animations[5].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                m_pSpriteRenderer.sortingLayerName = "2";
                 break;
         }
     }
+
+    // 플레이어가 대기 일때 호출 되는 함수입니다.
 
     public override Vector3 IDLE()
     {
@@ -165,6 +145,8 @@ public class Stick : ITEM
 
         return transform.localPosition;
     }
+
+    // 플레이어가 이동시 호출 되는 함수입니다.
 
     public override Vector3 RUN()
     {
@@ -189,6 +171,8 @@ public class Stick : ITEM
 
         return transform.localPosition;
     }
+
+    // 플레이어가 공격시 호출 되는 함수입니다.
 
     public override void NormalAttack()
     {
@@ -257,6 +241,8 @@ public class Stick : ITEM
         }
     }
 
+    // 플레이어가 점프 할때 호출 되는 함수입니다.
+
     public override void Jump()
     {
         if (m_bIsSound == true)
@@ -265,9 +251,11 @@ public class Stick : ITEM
         transform.localPosition = new Vector3(0.0264f, 0.1319f);
     }
 
+    // 공격시 이펙트를 생성하게 하는 함수입니다.
+
     private void CreateEffectSlash()
     {
-        if (m_bIsSlash == true)
+        if (m_bIsSlash == true) // 추가 이펙트가 생성되지 않게 제어
             return;
 
         m_pEffectSlash = m_pGameobjectManager.GameObejctPooling(m_strInstanceSlashName, m_vEffectLocalPosition, Vector3.zero, transform.rotation, transform);
@@ -277,12 +265,7 @@ public class Stick : ITEM
         _Slash.AccessSlashItem = this;
 
         m_bIsSlash = true;
-
-        //if (null == m_pEffectSlash.transform.parent)
-        //    m_pEffectSlash.transform.SetParent(transform);
     }
-
-
 
     public override Sprite GetSprite()
     {
@@ -317,16 +300,3 @@ public class Stick : ITEM
         Resources.UnloadUnusedAssets();
     }
 }
-
-
-//private void DeleteEffectSlash()
-//{
-//    if (m_strInstanceSlashName == string.Empty)
-//        return;
-
-//    //m_pEffectSlash.transform.SetParent(transform);
-
-//    m_pGameobjectManager.Remove(m_strInstanceSlashName, m_pEffectSlash);
-
-//    m_bIsSlash = false;
-//}

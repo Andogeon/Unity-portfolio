@@ -57,15 +57,6 @@ public class Hand : PART
         if (m_pHandSpriteRenderer.color != Color.white)
             m_pHandSpriteRenderer.color = Color.white;
 
-        //if (m_pAnimator.enabled == false)
-        //{
-        //    m_pItemobject.SetActive(true);
-
-        //    m_pHandSpriteRenderer.enabled = true;
-
-        //    m_pAnimator.enabled = true;
-        //}
-
         if (m_pAnimator.enabled == false)
         {
             m_pHandSpriteRenderer.enabled = true;
@@ -94,17 +85,6 @@ public class Hand : PART
 
     public override Vector3 RUN()
     {
-        //Debug.Log(transform.localPosition.x);
-
-        //if (m_pAnimator.enabled == false)
-        //{
-        //    m_pItemobject.SetActive(true);
-
-        //    m_pHandSpriteRenderer.enabled = true;
-
-        //    m_pAnimator.enabled = true;
-        //}
-
         if (m_pAnimator.enabled == false)
         {
             m_pHandSpriteRenderer.enabled = true;

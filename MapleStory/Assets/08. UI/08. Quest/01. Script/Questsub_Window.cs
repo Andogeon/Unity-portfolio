@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Questsub_Window : MonoBehaviour
+// 퀘스트 리스트에서 퀘스트 슬롯을 누를 시 퀘스트 세부사항을 알 수 있게 따로 생성 되는 퀘스트 서브 창 클래스입니다.
+
+public class Questsub_Window : MonoBehaviour // 퀘스트 서브 창 클래스입니다.
 {
-    [SerializeField] private Image _QuestNpc = null;
+    [SerializeField] private Image _QuestNpc = null; 
 
     [SerializeField] private Text _ExpText = null;
 
@@ -23,8 +25,6 @@ public class Questsub_Window : MonoBehaviour
 
     private QuestSlot m_pQusetSlot = null;
 
-    //private Image m_pQusetNpcImage = null;
-
     public QuestSlot AccessQusetSlot
     {
         get { return m_pQusetSlot; }
@@ -34,7 +34,7 @@ public class Questsub_Window : MonoBehaviour
 
     private void Update()
     {
-        if (m_pQuest == null)
+        if (m_pQuest == null) // 퀘스트가 존재하지 않는다면 
         {
             if (null == m_pCountText)
                 return;
@@ -47,28 +47,30 @@ public class Questsub_Window : MonoBehaviour
 
             _QuestNpc.gameObject.SetActive(false);
 
+            // 기존에 있는 텍스트, 스프라이트 비우고 비활성화한다.
+
             return;
         }
 
-        string _Result = string.Empty;
+        string _Result = string.Empty; // 출력할 최종 문자열
 
-        string _ItemCount = string.Empty;
+        string _ItemCount = string.Empty; // 아이템 숫자를 나타낼 문자열
 
-        if(m_pQuest.AccessQuestType == QUESTTYPE.QUEST_ITEM)
-            _ItemCount = m_pQuest.AccessQuestItemCount.ToString();
-        if (m_pQuest.AccessQuestType == QUESTTYPE.QUEST_MONTER)
+        if(m_pQuest.AccessQuestType == QUESTTYPE.QUEST_ITEM) // 해당 퀘스트가 아이템 타입이라면
+            _ItemCount = m_pQuest.AccessQuestItemCount.ToString(); // 현재 가지고 있는 아이템의 개수를 가지고 온다.
+        if (m_pQuest.AccessQuestType == QUESTTYPE.QUEST_MONTER) // 몬스터 일시 
         {
-            MonterQuest _MonterQuest = m_pQuest as MonterQuest;
+            MonterQuest _MonterQuest = m_pQuest as MonterQuest; // 형변환하여 
 
-            if (null != _MonterQuest)
-                _ItemCount = _MonterQuest.AccessDeleteCount.ToString();
+            if (null != _MonterQuest) //존재 한다면 
+                _ItemCount = _MonterQuest.AccessDeleteCount.ToString(); // 몬스터를 사냥한 개수를 가지고 온다.
         }
 
-        string _QuestCount = " / " + m_pQuest.AccessQuestCount.ToString();
+        string _QuestCount = " / " + m_pQuest.AccessQuestCount.ToString(); // " / 퀘스트의 개수를 표현"
 
-        _Result = _ItemCount + _QuestCount;
+        _Result = _ItemCount + _QuestCount; // "현재 아이템 개수 혹은 몬스터 잡은 개수 / 퀘스트의 개수를 표현" 
 
-        m_pCountText.text = _Result;
+        m_pCountText.text = _Result; // 최종 결과를 출력
     }
 
     private void OnDestroy()
@@ -84,6 +86,7 @@ public class Questsub_Window : MonoBehaviour
         m_pContentsText = null;
     }
 
+    // 서브 퀘스트의 세부 사항 및 
     public void QuestWindowMessage(QUEST _Quset)
     {
         if (null == _Quset)
@@ -102,16 +105,16 @@ public class Questsub_Window : MonoBehaviour
             m_pContentsText = transform.Find("Quest Contents Text").GetComponent<Text>();
         }
 
-        m_pText.text = _Quset.AccessQuestSlotName;
+        m_pText.text = _Quset.AccessQuestSlotName; // 퀘스트 주 제목 
 
-        m_pContentsText.text = m_pQuest.AccessQuestContents;
+        m_pContentsText.text = m_pQuest.AccessQuestContents; // 내용 
 
-        _ExpText.text = m_pQuest.AccessQuestExp.ToString();
+        _ExpText.text = m_pQuest.AccessQuestExp.ToString(); // 받을 경험치
 
-        if (_QuestNpc.gameObject.activeSelf == false)
-            _QuestNpc.gameObject.SetActive(true);
+        if (_QuestNpc.gameObject.activeSelf == false) // 스프라이트가 꺼져 있다면 
+            _QuestNpc.gameObject.SetActive(true); // 다시 활성화 
 
-        _QuestNpc.sprite = m_pQuest.AccessQuestNPCSprite;
+        _QuestNpc.sprite = m_pQuest.AccessQuestNPCSprite; // 퀘스트와 연관 되어 있는 NPC의 스프라이트 
 
         if (_Quset.AccessQuestType == QUESTTYPE.QUEST_ITEM)
         {
@@ -122,12 +125,10 @@ public class Questsub_Window : MonoBehaviour
             if (null == _ItemQuest)
                 return;
 
-            m_pImage.sprite = _ItemQuest.AccessQuestICon.GET_ICONIMAGE.sprite;
+            m_pImage.sprite = _ItemQuest.AccessQuestICon.GET_ICONIMAGE.sprite; // 아이템의 이미지 출력
         }
         else if (_Quset.AccessQuestType == QUESTTYPE.QUEST_MESSAGE)
-        {
-            // 이미지 스프라이트의 대화하려고자 하는 NPC 스트라이트를 넣어 줄것 
-
+        {           
             MessageQuest _MessageQuest = _Quset as MessageQuest;
 
             if (null == _MessageQuest)
@@ -138,12 +139,10 @@ public class Questsub_Window : MonoBehaviour
 
             m_pCountText.gameObject.SetActive(false);
 
-            m_pImage.sprite = _MessageQuest.AccessNPC.AccessSprireRenderer.sprite;
+            m_pImage.sprite = _MessageQuest.AccessNPC.AccessSprireRenderer.sprite; // 전달 받을 메세지 NPC 출력
         }
         else
         {
-            // 몬스터 스프라이트 이미지를 넣어줄것 !! 
-
             MonterQuest _MonterQuest = _Quset as MonterQuest;
 
             if (null == _MonterQuest)
@@ -152,11 +151,11 @@ public class Questsub_Window : MonoBehaviour
             if (m_pCountText.gameObject.activeSelf == false)
                 m_pCountText.gameObject.SetActive(true);
 
-            m_pImage.sprite = _MonterQuest.AccessQuestMonterSprite;
+            m_pImage.sprite = _MonterQuest.AccessQuestMonterSprite; // 몬스터 출력 
         }
     }
 
-    public void CancalQuest() // 정렬 !!
+    public void CancalQuest() // 취소시 호출 후 자동 정렬
     {
         if (null == m_pQuest)
             return;
@@ -168,230 +167,3 @@ public class Questsub_Window : MonoBehaviour
         gameObject.SetActive(false);
     }
 }
-
-
-
-
-
-
-
-
-//public class Questsub_Window : MonoBehaviour
-//{
-//    private QUEST m_pQuest = null;
-
-//    private Text m_pText = null;
-
-//    private Text m_pCountText = null;
-
-//    private Image m_pImage = null;
-
-//    private QuestSlot m_pQusetSlot = null;
-
-//    public QuestSlot AccessQusetSlot
-//    {
-//        get { return m_pQusetSlot; }
-
-//        set { m_pQusetSlot = value; }
-//    }
-
-//    public QUEST AccessQuset
-//    {
-//        get { return m_pQuest; }
-
-//        set
-//        {
-//            m_pQuest = value;
-
-//            if (null == m_pText)
-//            {
-//                m_pText = transform.Find("Quest Main Text").GetComponent<Text>();
-
-//                m_pCountText = transform.Find("Quest Item Result count").GetComponent<Text>();
-
-//                m_pImage = transform.Find("Quest Item Sprite").GetComponent<Image>();
-//            }
-
-//            if (null == m_pQuest)
-//            {
-//                m_pText.text = string.Empty;
-
-//                m_pImage.sprite = null;
-//            }
-//            else
-//            {
-//                m_pText.text = m_pQuest.AccessQuestSlotName;
-
-//                if (m_pQuest.AccessQuestType == QUESTTYPE.QUEST_ITEM)
-//                {
-//                    ItemQuest _ItemQuest = m_pQuest as ItemQuest;
-
-//                    if (null == _ItemQuest)
-//                        return;
-
-//                    m_pImage.sprite = _ItemQuest.AccessQuestICon.GET_ICONIMAGE.sprite;
-//                }
-//                else if (m_pQuest.AccessQuestType == QUESTTYPE.QUEST_MESSAGE)
-//                {
-//                    // 이미지 스프라이트의 대화하려고자 하는 NPC 스트라이트를 넣어 줄것 
-//                }
-//                else
-//                {
-//                    // 몬스터 스프라이트 이미지를 넣어줄것 !! 
-//                }
-//            }
-//        }
-//    }
-
-//    private void Update()
-//    {
-//        if (m_pQuest == null)
-//        {
-//            if (null == m_pCountText)
-//                return;
-
-//            m_pCountText.text = string.Empty;
-
-//            return;
-//        }
-
-//        string _Result = string.Empty;
-
-//        string _ItemCount = m_pQuest.AccessQuestItemCount.ToString();
-
-//        string _QuestCount = " / " + m_pQuest.AccessQuestCount.ToString();
-
-//        _Result = _ItemCount + _QuestCount;
-
-//        m_pCountText.text = _Result;
-//    }
-
-//    private void OnDestroy()
-//    {
-//        m_pCountText = null;
-
-//        m_pQuest = null;
-
-//        m_pText = null;
-
-//        m_pImage = null;
-//    }
-
-//    public void QuestWindowMessage(QUEST _Quset)
-//    {
-//        if (null == _Quset)
-//            return;
-
-//        m_pText.text = _Quset.AccessQuestSlotName;
-
-//        if (_Quset.AccessQuestType == QUESTTYPE.QUEST_ITEM)
-//        {
-//            ItemQuest _ItemQuest = _Quset as ItemQuest;
-
-//            if (null == _ItemQuest)
-//                return;
-
-//            m_pImage.sprite = _ItemQuest.AccessQuestICon.GET_ICONIMAGE.sprite;
-//        }
-//        else if (_Quset.AccessQuestType == QUESTTYPE.QUEST_MESSAGE)
-//        {
-//            // 이미지 스프라이트의 대화하려고자 하는 NPC 스트라이트를 넣어 줄것 
-//        }
-//        else
-//        {
-//            // 몬스터 스프라이트 이미지를 넣어줄것 !! 
-//        }
-//    }
-//}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//public class Questsub_Window : MonoBehaviour
-//{
-//    private Quest m_pQuest = null;
-
-//    private Text m_pText = null;
-
-//    private Text m_pCountText = null;
-
-//    private Image m_pImage = null;
-
-//    public Quest AccessQuset
-//    {
-//        get { return m_pQuest; }
-
-//        set
-//        {
-//            m_pQuest = value;
-
-//            if (null == m_pText)
-//            {
-//                m_pText = transform.Find("Quest Main Text").GetComponent<Text>();
-
-//                m_pCountText = transform.Find("Quest Item Result count").GetComponent<Text>();
-
-//                m_pImage = transform.Find("Quest Item Sprite").GetComponent<Image>();
-//            }
-
-//            if (null == m_pQuest)
-//            {
-//                m_pText.text = string.Empty;
-
-//                m_pImage.sprite = null;
-//            }
-//            else
-//            {
-//                m_pText.text = m_pQuest.AccessQuestSlotName;
-
-//                m_pImage.sprite = m_pQuest.AccessQuestItem.AccessIcon.GET_ICONIMAGE.sprite;
-//            }
-//        }
-//    }
-
-//    private void Update()
-//    {
-//        if (m_pQuest == null)
-//        {
-//            m_pCountText.text = string.Empty;
-
-//            return;
-//        }
-
-//        string _Result = string.Empty;
-
-//        string _ItemCount = m_pQuest.AccessQuestItemCount.ToString();
-
-//        string _QuestCount = " / " + m_pQuest.AccessQuestCount.ToString();
-
-//        _Result = _ItemCount + _QuestCount;
-
-//        m_pCountText.text = _Result;
-//    }
-
-//    private void OnDestroy()
-//    {
-//        m_pCountText = null;
-
-//        m_pQuest = null;
-
-//        m_pText = null;
-
-//        m_pImage = null;
-//    }
-//}

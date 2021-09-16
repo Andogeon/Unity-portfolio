@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// BlueOneLine 클래스처럼 플레이어의 몸체 스프라이트 기준으로 반바지의 스프라이트 및 로컬 위치를 변경했습니다.
+
 public class Halfjeans : ITEM
 {
-    private SpriteRenderer m_pBodySpriteRenderer = null;
+    private SpriteRenderer m_pBodySpriteRenderer = null; // 몸체의 스프라이트를 얻기 위한 참조 변수 
 
-    private Body m_pBodyObejct = null;
+    private Body m_pBodyObejct = null; // 플레이어 몸체의 상태를 얻어오기 위한 참조변수 
 
     private void Start()
     {
@@ -23,6 +25,8 @@ public class Halfjeans : ITEM
         m_pBodyObejct = _Obejct.GetComponent<Body>();
     }
 
+    // 플레이어 몸체의 상태를 상시로 갱신하여 로컬 위치와 스프라이트를 변경했습니다.
+
     private void Update()
     {
         if (m_pBodyObejct == null)
@@ -33,61 +37,39 @@ public class Halfjeans : ITEM
         switch (m_eAvatarState)
         {
             case AVATARSTATES.AVATAR_IDLE:
+                IDLE();
                 _Animations[0].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
                 break;
             case AVATARSTATES.AVATAR_RUN:
+                RUN();
                 _Animations[1].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
                 break;
             case AVATARSTATES.AVATAR_FIRSTNORMALATTACK:
+                NormalAttack();
                 _Animations[2].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
                 break;
             case AVATARSTATES.AVATAR_SECONDNORMALATTACK:
+                NormalAttack();
                 _Animations[3].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
                 break;
             case AVATARSTATES.AVATAR_THIRDNORMALATTACK:
+                NormalAttack();
                 _Animations[4].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
                 break;
             case AVATARSTATES.AVATAR_HIT:
             case AVATARSTATES.AVATAR_JUMP:
+                Jump();
                 _Animations[5].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
                 break;
             case AVATARSTATES.AVATAR_LADDER:
             case AVATARSTATES.AVATAR_LADDERRUN:
+                Ladder();
                 _Animations[6].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
                 break;
         }
     }
 
-    private void LateUpdate()
-    {
-        switch (m_eAvatarState)
-        {
-            case AVATARSTATES.AVATAR_IDLE:
-                IDLE();
-                break;
-            case AVATARSTATES.AVATAR_RUN:
-                RUN();
-                break;
-            case AVATARSTATES.AVATAR_FIRSTNORMALATTACK:
-                NormalAttack();
-                break;
-            case AVATARSTATES.AVATAR_SECONDNORMALATTACK:
-                NormalAttack();
-                break;
-            case AVATARSTATES.AVATAR_THIRDNORMALATTACK:
-                NormalAttack();
-                break;
-            case AVATARSTATES.AVATAR_HIT:
-            case AVATARSTATES.AVATAR_JUMP:
-                Jump();
-                break;
-            case AVATARSTATES.AVATAR_LADDER:
-            case AVATARSTATES.AVATAR_LADDERRUN:
-                Ladder();
-                break;
-        }
-    }
-
+    // 대기 상태에서 호출 되는 함수 
     public override Vector3 IDLE()
     {
         switch (m_pSpriteRenderer.sprite.name)
@@ -106,6 +88,7 @@ public class Halfjeans : ITEM
         return transform.localPosition;
     }
 
+    // 이동시 호출 되는 함수 
     public override Vector3 RUN()
     {
         switch (m_pBodySpriteRenderer.sprite.name)
@@ -127,6 +110,7 @@ public class Halfjeans : ITEM
         return transform.localPosition;
     }
 
+    // 공격 시 호출 되는 함수 
     public override void NormalAttack()
     {
         switch (m_pSpriteRenderer.sprite.name)
@@ -164,11 +148,14 @@ public class Halfjeans : ITEM
         }
     }
 
+    // 점프 했을 때 호출 되는 함수
+
     public override void Jump()
     {
         transform.localPosition = new Vector3(-0.001f, 0.004f);
     }
 
+    // 사다리에 올라 탔을 때 호출 되는 함수
     private void Ladder()
     {
         switch (m_pSpriteRenderer.sprite.name)

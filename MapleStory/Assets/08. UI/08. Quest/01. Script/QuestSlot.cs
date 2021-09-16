@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// 퀘스트 창과 함께 사용되는 퀘스트 슬롯 클래스입니다.
+
 public class QuestSlot : MonoBehaviour
 {
     private QUEST m_pQuest = null;
@@ -11,7 +13,7 @@ public class QuestSlot : MonoBehaviour
 
     private Questsub_Window m_pSubWindows = null;
 
-    public Questsub_Window AccessQuestSubWindow // null??
+    public Questsub_Window AccessQuestSubWindow
     {
         get { return m_pSubWindows; }
 

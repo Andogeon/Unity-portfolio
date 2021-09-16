@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ShopSlot : MonoBehaviour
+public class ShopSlot : MonoBehaviour // 상점 슬롯 클래스입니다.
 {
     private Image m_pImage = null;
 
@@ -38,6 +38,7 @@ public class ShopSlot : MonoBehaviour
         }
     }
 
+    // 외부로부터 스프라이트를 넘겨받는 프로퍼티 입니다.
     public Sprite AccessSprite
     {
         get
@@ -46,11 +47,12 @@ public class ShopSlot : MonoBehaviour
             {
                 m_pImage = transform.GetChild(0).GetComponent<Image>();
 
-                m_pSprite = m_pImage.sprite;
+                m_pSprite = m_pImage.sprite; // 현재 빈 슬롯의 스프라이트 이미지를 가지고 있게 변수로 이동
             }
 
             return m_pSprite;
         }
+        
         set { m_pSprite = value; }
     }
 
@@ -68,63 +70,44 @@ public class ShopSlot : MonoBehaviour
         set { m_pInventory = value; }
     }
 
-    public void BuyCilck()
+    // 상점 슬롯을 더블 클릭시 아이템을 구매하고 장비, 소비 인벤토리에 삽입하는 함수입니다.
+
+    public void BuyCilck() 
     {
-        if(false == m_bIsCilck)
+        if(false == m_bIsCilck) // 한번 클릭시 
         {
             m_bIsCilck = true;
 
             return;
         }
 
-        GameObject _IConobject = GameObject.Instantiate(m_pSellerICon.gameObject); // 임시적인 방법 !! 
+        GameObject _IConobject = GameObject.Instantiate(m_pSellerICon.gameObject); // 아이콘 복사 오브젝트를 생성 
 
         GameObject _CopyItem = null;
 
         ICON CopyICon = _IConobject.GetComponent<ICON>();
 
-        if (m_pSellerICon.AccessOrlIConType == ICONTYPE.ICON_EQUIP) // Type
+        if (m_pSellerICon.AccessOrlIConType == ICONTYPE.ICON_EQUIP) // 해당 판매하는 아이콘의 타입이 장비쪽이라면 
         {
-            _CopyItem = GameObject.Instantiate(m_pSellerICon.OriginalItem.gameObject); // 여기서 확인을 할 수 없다 ??
+            _CopyItem = GameObject.Instantiate(m_pSellerICon.OriginalItem.gameObject); // 해당 아이콘의 원본 아이템 오브젝트를 통하여 복사본 생성 
 
-            CopyICon.AccessItem = _CopyItem.GetComponent<ITEM>();
+            CopyICon.AccessItem = _CopyItem.GetComponent<ITEM>(); // 복사본 아이템 객체를 대입
 
-            CopyICon.AccessItem.AccessIcon = CopyICon;
+            CopyICon.AccessItem.AccessIcon = CopyICon; // 아이콘의 복사본 아이콘 대입
 
-            CopyICon.AccessOrlGameObejct = _CopyItem;
+            CopyICon.AccessOrlGameObejct = _CopyItem; // 아이콘의 복사본 아이템의 대입
 
-            m_pInventory.EquipItemInsert(_IConobject);
+            m_pInventory.EquipItemInsert(_IConobject); // 장비 아이콘을 장비 인벤토리의 삽입
         }
-        else
-            m_pInventory.ConsumptionItemInsert(_IConobject);
-
-        // 혹시 모르니까 삭제 하지 않는다라고 설정 본다 !! 
+        else // 그러지 않을 경우 소비창
+            m_pInventory.ConsumptionItemInsert(_IConobject); // 소비 아이콘을 소비 인벤토리의 삽입
 
         m_bIsCilck = false;
-
-
-
-        //if (m_pSellerICon.OriginalItem != null) // Type
-        //{
-        //    _CopyItem = GameObject.Instantiate(m_pSellerICon.OriginalItem.gameObject); // 여기서 확인을 할 수 없다 ??
-
-        //    CopyICon.AccessItem = _CopyItem.GetComponent<ITEM>();
-
-        //    CopyICon.AccessItem.AccessIcon = CopyICon;
-
-        //    CopyICon.AccessOrlGameObejct = _CopyItem;
-
-        //    m_pInventory.EquipItemInsert(_IConobject);
-        //}
-        //else
-        //    m_pInventory.ConsumptionItemInsert(_IConobject);
-
-        //// 혹시 모르니까 삭제 하지 않는다라고 설정 본다 !! 
-
-        //m_bIsCilck = false;
     }
 
-    public void OnSaleButton()
+    // 상점 플레이어 인벤토리에서 슬롯을 더블클릭시 판매할 때 호출 되는 함수입니다.
+
+    public void OnSaleButton() 
     {
         if (false == m_bIsCilck)
         {
@@ -142,12 +125,12 @@ public class ShopSlot : MonoBehaviour
 
         m_pSellerICon.AccessMySlot = null;
 
-        if(m_pSellerICon.AccessItem != null) // 혹시 기존에 만들어져 있다면 
-            Destroy(m_pSellerICon.AccessItem.gameObject);
+        if(m_pSellerICon.AccessItem != null) // 판매하는 아이콘의 아이템 즉 장비가 달려 있다면 
+            Destroy(m_pSellerICon.AccessItem.gameObject); // 아이템의 오브젝트 자체를 소멸
 
-        Destroy(_DeleteICon.gameObject);
+        Destroy(_DeleteICon.gameObject); // 아이콘의 소멸 
 
-        m_pImage.sprite = m_pSprite;
+        m_pImage.sprite = m_pSprite; // 해당 슬롯 이미지를 빈 아이콘으로 변경
 
         m_bIsCilck = false;
     }

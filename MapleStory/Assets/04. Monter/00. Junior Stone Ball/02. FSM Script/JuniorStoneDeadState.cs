@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// 애니메이터 주니어 스톤볼 사냥 모션 클래스입니다.
 public class JuniorStoneDeadState : StateMachineBehaviour
 {
     private MONTER m_pDeleteMonter = null;
@@ -21,21 +22,18 @@ public class JuniorStoneDeadState : StateMachineBehaviour
         GameObject _Object = m_pGameobjectManager.GameObejctPooling("Stone Etc Item", Vector3.zero, m_pDeleteMonter.transform.position, Quaternion.identity);
 
         _Object.transform.localScale = new Vector2(3.0f, 3.0f);
-
-        
-
-        // 메소 획득 시 메소를 X값을 이동하여 만들어논다 !! 
     }
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9f)
+        // 해당 애니메이션이 종료 된다면 
+        if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9f) 
         {
-            m_pJuniorStoneBall.AccessPlayerObject.AccessExp += 10.0f;
+            m_pJuniorStoneBall.AccessPlayerObject.AccessExp += 10.0f; // 플레이어에게 경험치를 주고 
 
-            m_pGameobjectManager.Remove(m_pDeleteMonter.AccessMonterName, animator.gameObject);
+            m_pGameobjectManager.Remove(m_pDeleteMonter.AccessMonterName, animator.gameObject); // 오브젝트 풀링에 다시 넣는다.
 
-            animator.SetBool("DEAD", false);
+            animator.SetBool("DEAD", false); // 애니메이션을 사망끈다
         }
     }
 }

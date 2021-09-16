@@ -14,7 +14,6 @@ public static class FollowCameraPositions
     }
 }
 
-
 public class FollowCamera : MonoBehaviour
 {
     [SerializeField] private Vector2 _Center = Vector2.zero;
@@ -28,17 +27,6 @@ public class FollowCamera : MonoBehaviour
     private float m_fheight = 0.0f;
 
     private GameObject m_pFollowObject = null;
-
-    //private static Vector3 m_vPosition = Vector3.zero;
-
-    //public Vector3 AccessOldPosition
-    //{
-    //    get { return m_vPosition; }
-
-    //    set { m_vPosition = value; }
-    //}
-
-    //private static FollowCameraPositions m_FollowCameraPositions;
 
     private void OnDrawGizmos()
     {
@@ -64,9 +52,6 @@ public class FollowCamera : MonoBehaviour
         }
         else
             m_pFollowObject = _FollowGameobject.gameObject;
-
-        //if (m_vPosition != Vector3.zero)
-        //    transform.position = m_vPosition;
     }
 
     private void FixedUpdate()

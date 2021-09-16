@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class SceceCamera : MonoBehaviour
+public class SceceCamera : MonoBehaviour // 최초 게임 시작씬에서 사용할 카메라 클래스입니다.
 {
     [SerializeField] private AudioClip _ReturnSound = null;
 

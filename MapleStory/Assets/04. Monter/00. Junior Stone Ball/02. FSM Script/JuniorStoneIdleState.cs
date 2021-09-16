@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// 애니메이터 주니어스톤볼 대기 모션 클래스입니다.
+
 public class JuniorStoneIdleState : StateMachineBehaviour
 {
     private JuniorStoneBall m_pStoneBall = null;
@@ -18,7 +20,7 @@ public class JuniorStoneIdleState : StateMachineBehaviour
     {
         m_fTimeAcc += Time.deltaTime;
 
-        if(m_fTimeAcc >= 2.0f)
+        if(m_fTimeAcc >= 2.0f) // 2초 간격으로 달리기로 애니메이션 변경 
         {
             m_fTimeAcc = 0.0f;
 

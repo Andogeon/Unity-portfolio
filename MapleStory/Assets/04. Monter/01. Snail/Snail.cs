@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Snail : MONTER
+public class Snail : MONTER // 달팽이, 스포어, 파란달팽이에서 사용되는 클래스입니다.
 {
     [SerializeField] private AudioClip _HitSound = null;
 
@@ -13,8 +13,6 @@ public class Snail : MONTER
     [SerializeField] private LayerMask _BoxLayer = 0;
 
     [SerializeField] private Vector2 BoxSize = Vector2.zero;
-
-    //[SerializeField] private GameObject _FieldItem = null;
 
     private Animator m_pAnimator = null;
 
@@ -59,18 +57,16 @@ public class Snail : MONTER
         m_pSoundManager.AddSound("Snail Ball Hit Sound", _HitSound, SoundType.Sound_Effect);
 
         m_pSoundManager.AddSound(DeadSoundName, _DeadSound, SoundType.Sound_Effect);
-
-        //m_pSoundManager.AddSound("Snail Ball Hit Sound", _HitSound, SoundType.Sound_Effect);
-
-        //m_pSoundManager.AddSound("Snail Ball Dead Sound", _DeadSound, SoundType.Sound_Effect);
-
-        //m_pGameobjectManager.OriginalGamgObjectInsert("Snail Etc Item", _FieldItem);
     }
 
     public void Update()
     {
+        // 해당 오브젝트의 체력이 0이하로 떨어졌다면 
+        
         if (_Hp <= 0.0f)
         {
+            // 사망 애니메이션으로 변경 
+
             m_pAnimator.SetBool("DEAD", true);
 
             m_pAnimator.SetBool("RUN", false);
@@ -79,8 +75,6 @@ public class Snail : MONTER
 
             if (m_bIsDeadSound == false)
             {
-                //m_pSoundManager.PlaySound("Snail Ball Dead Sound");
-
                 m_pSoundManager.PlaySound(DeadSoundName);
 
                 m_bIsDeadSound = true;
@@ -90,6 +84,7 @@ public class Snail : MONTER
         }
     }
 
+    // 슬레쉬 이펙트와 충돌시 피격이펙트로 변경 
     public override void SetHItAnimation()
     {
         if (_Hp <= 0.0f)
@@ -103,6 +98,7 @@ public class Snail : MONTER
         m_pSoundManager.PlaySound("Snail Ball Hit Sound");
     }
 
+    // 재활성화 시 체력 및 변수들의 초기화하는 함수입니다.
     public void OnEnable()
     {
         if (m_fMaxHp == 0.0f)
@@ -122,46 +118,3 @@ public class Snail : MONTER
         m_bIsDeadSound = false;
     }
 }
-
-
-
-
-
-
-
-//private void OnDrawGizmos()
-//{
-//    Gizmos.color = Color.black;
-
-//    Gizmos.DrawWireCube(transform.position, BoxSize);
-//}
-
-//private void OnTriggerEnter2D(Collider2D collision)
-//{
-//    if (MONTER.m_iCollisionCount >= 1 || collision.gameObject.tag != "Attack Effect")
-//        return;
-
-//    if (collision.gameObject.tag == "Attack Effect")
-//    {
-//        m_iCollisionCount = 1;
-
-//        if (_Hp <= 0.0f)
-//        {
-//            m_pAnimator.SetBool("DEAD", true);
-
-//            m_pAnimator.SetBool("HIT", false);
-
-//            return;
-//        }
-
-//        _Hp -= 10.0f;
-
-//        m_pAnimator.SetBool("HIT", true);
-//    }
-//}
-
-//private void OnTriggerExit2D(Collider2D collision)
-//{
-//    if (collision.gameObject.tag == "Attack Effect")
-//        m_iCollisionCount = 0;
-//}

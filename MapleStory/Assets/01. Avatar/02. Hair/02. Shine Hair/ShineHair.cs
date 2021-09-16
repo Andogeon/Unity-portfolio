@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// NormalHair Class와 함수 기능을 같습니다.
+
 public class ShineHair : HAIR
 {
     public override Sprite GetSprite()

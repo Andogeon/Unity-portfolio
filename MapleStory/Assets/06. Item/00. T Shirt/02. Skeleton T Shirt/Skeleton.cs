@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//BlueOneLine 클래스와 변수 및 기능 똑같으며 스프라이트 이미지만 다릅니다.
+
 public class Skeleton : ITEM
 {
     private SkeletonArm m_pSkeletonArm = null;
@@ -22,14 +24,14 @@ public class Skeleton : ITEM
 
         m_pSkeletonArm.SetHandRenderer = transform.parent.GetChild(0).GetComponent<SpriteRenderer>();
 
-        m_pSkeletonArm.SetBodyRenderer = m_pBodySpriteRenderer = transform.parent.GetComponentInParent<SpriteRenderer>();
+        m_pBodySpriteRenderer = transform.parent.GetComponentInParent<SpriteRenderer>();
 
         m_pSkeletonArm.transform.SetParent(transform);
 
         Destroy(_SkeletonArm.gameObject);
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         m_pSkeletonArm.AvatarState = m_eAvatarState;
 
@@ -37,54 +39,32 @@ public class Skeleton : ITEM
         {
             case AVATARSTATES.AVATAR_IDLE:
                 _Animations[0].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                IDLE();
                 break;
             case AVATARSTATES.AVATAR_RUN:
                 _Animations[1].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                RUN();
                 break;
             case AVATARSTATES.AVATAR_FIRSTNORMALATTACK:
                 _Animations[2].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                NormalAttack();
                 break;
             case AVATARSTATES.AVATAR_SECONDNORMALATTACK:
                 _Animations[3].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                NormalAttack();
                 break;
             case AVATARSTATES.AVATAR_THIRDNORMALATTACK:
                 _Animations[4].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                NormalAttack();
                 break;
             case AVATARSTATES.AVATAR_HIT:
             case AVATARSTATES.AVATAR_JUMP:
                 _Animations[5].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
-                break;
-            case AVATARSTATES.AVATAR_LADDER:
-            case AVATARSTATES.AVATAR_LADDERRUN:
-                _Animations[6].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
-                break;
-        }
-    }
-
-    private void LateUpdate()
-    {
-        switch (m_eAvatarState)
-        {
-            case AVATARSTATES.AVATAR_IDLE:
-                IDLE();
-                break;
-            case AVATARSTATES.AVATAR_RUN:
-                RUN();
-                break;
-            case AVATARSTATES.AVATAR_FIRSTNORMALATTACK:
-                NormalAttack();
-                break;
-            case AVATARSTATES.AVATAR_SECONDNORMALATTACK:
-                NormalAttack();
-                break;
-            case AVATARSTATES.AVATAR_THIRDNORMALATTACK:
-                NormalAttack();
-                break;
-            case AVATARSTATES.AVATAR_JUMP:
                 Jump();
                 break;
             case AVATARSTATES.AVATAR_LADDER:
             case AVATARSTATES.AVATAR_LADDERRUN:
+                _Animations[6].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
                 Ladder();
                 break;
         }

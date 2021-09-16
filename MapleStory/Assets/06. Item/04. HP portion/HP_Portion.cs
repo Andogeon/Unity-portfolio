@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class HP_Portion : ITEM
 {
-    [SerializeField] private float m_fRecovery = 0.0f;
+    [SerializeField] private float m_fRecovery = 0.0f; // 아이템의 회복량
 
-    public override void UsePotion(Player _Player, ICON _CloneICon)
+
+    // 플레이어와 생성되는 포션의 클론 오브젝트의 인자로 물약을 사용하는 함수입니다.
+    public override void UsePotion(Player _Player, ICON _CloneICon) 
     {
-        //m_iPortionCount -= 1;
-
         _CloneICon.AccessIconCount -= 1;
 
         if (_Player.AccessPlayerHP < _Player.AccessPlayerMaxHP)
@@ -22,8 +22,6 @@ public class HP_Portion : ITEM
 
         if (_CloneICon.AccessIconCount <= 0)
         {
-            // 정렬한다 !! 
-
             m_pInventoryIcon.AccessMySlot.AccessICon = null;
 
             Destroy(m_pInventoryIcon.gameObject);

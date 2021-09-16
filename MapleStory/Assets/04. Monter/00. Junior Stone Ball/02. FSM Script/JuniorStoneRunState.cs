@@ -35,19 +35,20 @@ public class JuniorStoneRunState : StateMachineBehaviour
 
         Collider2D _Collision = Physics2D.OverlapBox(_Transform.position, m_pStoneBall.AccessBoxSize, 0.0f, m_pStoneBall.AccessLayer);
 
+        // 맵에 임의로 설정된 박스에 충돌 했다면 
         if (_Collision != null && m_bIsCollision == false)
         {
             m_bIsCollision = true;
 
             if (_Transform.eulerAngles.y == 180.0f)
-                _Transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+                _Transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f); // 0도로 회전
             else if (_Transform.eulerAngles.y == 0.0f)
-                _Transform.rotation = Quaternion.Euler(0.0f, 180.0f, 0.0f);
+                _Transform.rotation = Quaternion.Euler(0.0f, 180.0f, 0.0f); // 180도 회전 
         } 
         else if (_Collision == null)
             m_bIsCollision = false;
 
-        _Transform.position += (_Transform.right * -1.0f) * 3.0f * Time.deltaTime;
+        _Transform.position += (_Transform.right * -1.0f) * 3.0f * Time.deltaTime; // 현 오브젝트 우측방향으로 이동한다 
     }
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Halfjeans과 기능은 같으며 스프라이트만 다르게 했습니다
+
 public class Brownshorts : ITEM
 {
     private SpriteRenderer m_pBodySpriteRenderer = null;
@@ -23,63 +25,43 @@ public class Brownshorts : ITEM
         m_pBodyObejct = _Obejct.GetComponent<Body>();
     }
 
-    private void Update()
+    private void LateUpdate()
     {
+        if (m_pBodyObejct == null)
+            return;
+
         m_eAvatarState = m_pBodyObejct.GetAvatarState;
 
         switch (m_eAvatarState)
         {
             case AVATARSTATES.AVATAR_IDLE:
                 _Animations[0].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                IDLE();
                 break;
             case AVATARSTATES.AVATAR_RUN:
                 _Animations[1].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                RUN();
                 break;
             case AVATARSTATES.AVATAR_FIRSTNORMALATTACK:
                 _Animations[2].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                NormalAttack();
                 break;
             case AVATARSTATES.AVATAR_SECONDNORMALATTACK:
                 _Animations[3].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                NormalAttack();
                 break;
             case AVATARSTATES.AVATAR_THIRDNORMALATTACK:
                 _Animations[4].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
+                NormalAttack();
                 break;
             case AVATARSTATES.AVATAR_HIT:
             case AVATARSTATES.AVATAR_JUMP:
                 _Animations[5].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
-                break;
-            case AVATARSTATES.AVATAR_LADDER:
-            case AVATARSTATES.AVATAR_LADDERRUN:
-                _Animations[6].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
-                break;
-        }
-    }
-
-    private void LateUpdate()
-    {
-        switch (m_eAvatarState)
-        {
-            case AVATARSTATES.AVATAR_IDLE:
-                IDLE();
-                break;
-            case AVATARSTATES.AVATAR_RUN:
-                RUN();
-                break;
-            case AVATARSTATES.AVATAR_FIRSTNORMALATTACK:
-                NormalAttack();
-                break;
-            case AVATARSTATES.AVATAR_SECONDNORMALATTACK:
-                NormalAttack();
-                break;
-            case AVATARSTATES.AVATAR_THIRDNORMALATTACK:
-                NormalAttack();
-                break;
-            case AVATARSTATES.AVATAR_HIT:
-            case AVATARSTATES.AVATAR_JUMP:
                 Jump();
                 break;
             case AVATARSTATES.AVATAR_LADDER:
             case AVATARSTATES.AVATAR_LADDERRUN:
+                _Animations[6].UpdateAnimation(m_pSpriteRenderer, m_pBodySpriteRenderer);
                 Ladder();
                 break;
         }

@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// 애니메이터 달팽이 달리기 모션 클래스입니다.
 public class Snail_RunState : StateMachineBehaviour
 {
     private Snail m_pStoneBall = null;
 
     private int iSelectMode = -1;
-
-    //private bool m_bIsCollision = false;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -35,41 +34,17 @@ public class Snail_RunState : StateMachineBehaviour
 
         Collider2D _Collision = Physics2D.OverlapBox(_Transform.position, m_pStoneBall.AccessBoxSize, 0.0f, m_pStoneBall.AccessLayer);
 
+        // 충돌 시 박스가 가지고 잇는 회전방향으로 몬스터를 회전
         if (_Collision != null)
             _Transform.eulerAngles = _Collision.transform.eulerAngles;
 
+        // 이동
+
         _Transform.position += (_Transform.right * -1.0f) * 3.0f * Time.deltaTime;
-
-        //if (_Collision != null && m_bIsCollision == false)
-        //{
-        //    if (_Transform.eulerAngles.y == 180.0f)
-        //        _Transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
-        //    else if (_Transform.eulerAngles.y == 0.0f)
-        //        _Transform.rotation = Quaternion.Euler(0.0f, 180.0f, 0.0f);
-
-        //    m_bIsCollision = true;
-        //}
-
-        //else if (_Collision == null) // null 아니구 .. 그냥 무조건 간다?!
-        //    m_bIsCollision = false;
-
-        ////else if (_Collision != null && m_bIsCollision ==true)
-        ////{
-        ////    if (_Transform.eulerAngles.y == 180.0f)
-        ////        _Transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
-        ////    else if (_Transform.eulerAngles.y == 0.0f)
-        ////        _Transform.rotation = Quaternion.Euler(0.0f, 180.0f, 0.0f);
-        ////}
-        //else if (_Collision == null) // null 아니구 .. 그냥 무조건 간다?!
-        //    m_bIsCollision = false;
-
-        //_Transform.position += (_Transform.right * -1.0f) * 3.0f * Time.deltaTime;
     }
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        //m_bIsCollision = false;
-
         m_pStoneBall = null;
     }
 }

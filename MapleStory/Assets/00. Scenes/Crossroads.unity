@@ -1643,22 +1643,22 @@ PrefabInstance:
     - target: {fileID: 5717430330964399479, guid: 577d4bd958f304149946e17be10b7dc0,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 21.1
+      value: 0.000035286
       objectReference: {fileID: 0}
     - target: {fileID: 5717430330964399479, guid: 577d4bd958f304149946e17be10b7dc0,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 19.1
+      value: 0.00005722
       objectReference: {fileID: 0}
     - target: {fileID: 5717430330964399479, guid: 577d4bd958f304149946e17be10b7dc0,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1995.4121
+      value: 1919.1548
       objectReference: {fileID: 0}
     - target: {fileID: 5717430330964399479, guid: 577d4bd958f304149946e17be10b7dc0,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 963.83435
+      value: 1079.9996
       objectReference: {fileID: 0}
     - target: {fileID: 5717430330964399479, guid: 577d4bd958f304149946e17be10b7dc0,
         type: 3}
@@ -2078,12 +2078,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1980, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2097,8 +2097,8 @@ Canvas:
   m_GameObject: {fileID: 1099149241}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1589575216}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -2106,8 +2106,8 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 634659591
+  m_SortingOrder: 11
   m_TargetDisplay: 0
 --- !u!224 &1099149245
 RectTransform:
@@ -3156,6 +3156,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 6255f8894a65fdb4ebb51f557eb41682,
         type: 3}
+    - target: {fileID: 5048794095111725438, guid: 454732cfdafc7d646b92f627277e4839,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 305
+      objectReference: {fileID: 0}
     - target: {fileID: 5048794095181342263, guid: 454732cfdafc7d646b92f627277e4839,
         type: 3}
       propertyPath: _WorldMapRenderer
@@ -3276,6 +3281,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5048794095612271202, guid: 454732cfdafc7d646b92f627277e4839,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5048794095612271202, guid: 454732cfdafc7d646b92f627277e4839,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1589575216}
+    - target: {fileID: 5048794095612271202, guid: 454732cfdafc7d646b92f627277e4839,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 634659591
+      objectReference: {fileID: 0}
+    - target: {fileID: 5048794095612271202, guid: 454732cfdafc7d646b92f627277e4839,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5048794095612271203, guid: 454732cfdafc7d646b92f627277e4839,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5048794095612271203, guid: 454732cfdafc7d646b92f627277e4839,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1980
+      objectReference: {fileID: 0}
+    - target: {fileID: 5048794095612271203, guid: 454732cfdafc7d646b92f627277e4839,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 5048794095612271203, guid: 454732cfdafc7d646b92f627277e4839,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5048794095612271213, guid: 454732cfdafc7d646b92f627277e4839,
         type: 3}

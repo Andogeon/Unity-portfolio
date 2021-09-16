@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// 몬스터 관련 퀘스트 클래스입니다.
+
 public class MonterQuest : QUEST
 {
     //[SerializeField] private MONTER _QuestMonter = null;

@@ -14,17 +14,19 @@ public enum AVATARSTATES
     AVATAR_DEAD
 }
 
-public class Body : PART
+public class Body : PART // 플레이어 및 캐릭터 커스터마이징 캐릭터 몸체의 클래스 입니다.
 {
     private Animator m_pAnimator = null;
 
     private Animator m_pHandAnimator = null;
 
-    private AVATARSTATES m_eAvatarState = AVATARSTATES.AVATAR_IDLE;
+    private AVATARSTATES m_eAvatarState = AVATARSTATES.AVATAR_IDLE; // 플레이어 상태에 따른 몸체의 상태 변수 
 
     private string m_strAttackName = string.Empty;
 
     private Player m_pPlayer = null;
+
+    // 손, 머리, 얼굴, 헤어 스프라이트 랜더러 컴포넌트 변수
 
     private SpriteRenderer m_pHandRenderer = null;
 
@@ -38,11 +40,15 @@ public class Body : PART
 
     private Foot m_pFoot = null;
 
+    // 케릭터 커스터마이징에서 지정한 이름을 게임 시작시 플레이어 이름으로 지정할 변수입니다.
+
     private string m_PlayerName = string.Empty;
+
+    // 케릭터의 사망 여부 
 
     private bool m_bIsDead = false;
 
-    private int m_bIsUpDown = 0;
+    private int m_IsUpDown = 0;
 
     public AVATARSTATES GetAvatarState
     {
@@ -64,15 +70,15 @@ public class Body : PART
 
         m_pAnimator = GetComponent<Animator>();
 
-        m_pHandAnimator = transform.GetChild(0).gameObject.GetComponent<Animator>();
+        m_pHandAnimator = transform.GetChild(0).gameObject.GetComponent<Animator>(); // 손 부위 애니메이터 
 
-        m_pHandRenderer = m_pHandAnimator.GetComponent<SpriteRenderer>();
+        m_pHandRenderer = m_pHandAnimator.GetComponent<SpriteRenderer>(); // 손 부위 스프라이트 랜더러
 
         m_pPlayer = FindObjectOfType<Player>();
 
         if (m_pPlayer != null)
         {
-            m_pHeadRenderer = m_pPlayer.transform.Find("Head").GetComponent<SpriteRenderer>(); // nullptr;
+            m_pHeadRenderer = m_pPlayer.transform.Find("Head").GetComponent<SpriteRenderer>();
 
             m_pFaceRenderer = m_pHeadRenderer.transform.Find("Face").GetComponent<SpriteRenderer>();
 
@@ -82,173 +88,32 @@ public class Body : PART
 
             m_pFoot = m_pPlayer.transform.Find("Foot").gameObject.GetComponent<Foot>();
         }
-        // 머리에서 다 가지고 와야 함 !! 
     }
-
-    //private void Start()
-    //{
-    //    m_pSpriteRenderer = GetComponent<SpriteRenderer>();
-
-    //    m_pAnimator = GetComponent<Animator>();
-
-    //    m_pHandAnimator = transform.GetChild(0).gameObject.GetComponent<Animator>();
-
-    //    m_pHandRenderer = m_pHandAnimator.GetComponent<SpriteRenderer>();
-
-    //    m_pPlayer = FindObjectOfType<Player>();
-
-    //    m_pHeadRenderer = m_pPlayer.transform.Find("Head").GetComponent<SpriteRenderer>(); // nullptr;
-
-    //    // 머리에서 다 가지고 와야 함 !! 
-    //}
 
     private void Update()
     {
-        if (null != m_pItem)
-            m_pItem.AvatarState = m_eAvatarState; // 이 녀석이 갱신이 안된다 ??
+        if (null != m_pItem) // 
+            m_pItem.AvatarState = m_eAvatarState; // 아이템에 현재 플레이어 상태 정보를 넘김
 
-        
         if (transform.parent.name == "Select Avatar")
         {
-            SelectAnimation();
+            SelectAnimation(); // 상위 오브젝트가 케릭터 커스터마이징시 애니메이션을 실행하기 위한 함수입니다.
 
             return;
         }
 
         AnimationUpdate();
-
-        //Debug.Log(m_eAvatarState); // 현재 아이들 
-
-        //Chanking();
     }
 
-    private void AnimationUpdate()
+    private void AnimationUpdate() // 실제 상위 오브젝트가 플레이어시 실행되는 애니메이션 함수입니다.
     {
-        //switch (m_eAvatarState)
-        //{
-        //    case AVATARSTATES.AVATAR_IDLE:
-        //        m_pAnimator.SetBool("JUMP", false);
-        //        m_pHandAnimator.SetBool("JUMP", false);
-        //        m_pAnimator.SetBool("RUN", false);
-        //        m_pHandAnimator.SetBool("RUN", false);
-        //        m_pAnimator.SetBool("ATTACK", false);
-        //        m_pHandAnimator.SetBool("ATTACK", false);
-        //        m_pAnimator.SetBool("LADDER", false);
-        //        m_pAnimator.SetBool("LADDER RUN", false);
-        //        if (m_pHandAnimator.gameObject.activeSelf == false)
-        //            m_pHandAnimator.gameObject.SetActive(true);
-        //        if (m_pSpriteRenderer.color != Color.white)
-        //            m_pSpriteRenderer.color = new Color(1.0f, 1.0f, 1.0f);
-        //        m_strAttackName = string.Empty;
-        //        break;
-        //    case AVATARSTATES.AVATAR_RUN:
+        // 애니메이터로 몸체의 애니메이션을 전환을 위해 Setbool로 제어했습니다.
 
-        //        m_pAnimator.SetBool("JUMP", false);
-        //        m_pHandAnimator.SetBool("JUMP", false);
-        //        m_pAnimator.SetBool("RUN", true);
-        //        m_pHandAnimator.SetBool("RUN", true);
-        //        m_pAnimator.SetBool("LADDER", false);
-        //        m_pAnimator.SetBool("LADDER RUN", false);
-        //        m_pAnimator.SetBool("ATTACK", false);
-        //        m_pHandAnimator.SetBool("ATTACK", false);
-        //        if (m_pHandAnimator.gameObject.activeSelf == false)
-        //            m_pHandAnimator.gameObject.SetActive(true);
-        //        m_strAttackName = string.Empty;
-        //        break;
-        //    case AVATARSTATES.AVATAR_JUMP:
-        //        m_strAttackName = string.Empty;
-        //        m_pAnimator.SetBool("RUN", false);
-        //        m_pHandAnimator.SetBool("RUN", false);
-        //        m_pAnimator.SetBool("JUMP", true);
-        //        m_pHandAnimator.SetBool("JUMP", true);
-        //        m_pAnimator.SetBool("LADDER", false);
-        //        m_pAnimator.SetBool("LADDER RUN", false);
-        //        if (m_pHandAnimator.gameObject.activeSelf == false)
-        //            m_pHandAnimator.gameObject.SetActive(true);
-        //        m_strAttackName = string.Empty;
-        //        break;
-        //    case AVATARSTATES.AVATAR_LADDER:
-        //        m_pAnimator.SetBool("LADDER", true);
-        //        m_pAnimator.SetBool("LADDER RUN", false);
-        //        m_pAnimator.SetBool("ATTACK", false);
-        //        m_pHandAnimator.SetBool("ATTACK", false);
-        //        m_strAttackName = string.Empty;
-        //        break;
-        //    case AVATARSTATES.AVATAR_LADDERRUN:
-        //        m_pAnimator.SetBool("JUMP", false);
-        //        m_pHandAnimator.SetBool("JUMP", false);
-        //        m_pAnimator.SetBool("RUN", false);
-        //        m_pHandAnimator.SetBool("RUN", false);
-        //        m_pAnimator.SetBool("LADDER RUN", true);
-        //        m_pAnimator.SetBool("ATTACK", false);
-        //        m_pHandAnimator.SetBool("ATTACK", false);
-        //        m_strAttackName = string.Empty;
-        //        break;
-        //    case AVATARSTATES.AVATAR_FIRSTNORMALATTACK:
-        //        m_pAnimator.SetBool("RUN", false);
-        //        m_pHandAnimator.SetBool("RUN", false);
-        //        m_pAnimator.SetBool("JUMP", false);
-        //        m_pHandAnimator.SetBool("JUMP", false);
-        //        m_pAnimator.SetBool("ATTACK", true);
-        //        m_pHandAnimator.SetBool("ATTACK", true);
-        //        m_pAnimator.SetInteger("ATTACK MODE", 1);
-        //        m_pHandAnimator.SetInteger("ATTACK MODE", 1);
-        //        if (m_strAttackName == string.Empty)
-        //            m_strAttackName = "FIRST ATTACK";
-        //        break;
-        //    case AVATARSTATES.AVATAR_SECONDNORMALATTACK:
-        //        m_pAnimator.SetBool("RUN", false);
-        //        m_pHandAnimator.SetBool("RUN", false);
-        //        m_pAnimator.SetBool("JUMP", false);
-        //        m_pHandAnimator.SetBool("JUMP", false);
-        //        m_pAnimator.SetBool("ATTACK", true);
-        //        m_pHandAnimator.SetBool("ATTACK", true);
-        //        m_pAnimator.SetInteger("ATTACK MODE", 2);
-        //        m_pHandAnimator.SetInteger("ATTACK MODE", 2);
-        //        if (m_strAttackName == string.Empty)
-        //            m_strAttackName = "SECOND ATTACK";
-        //        break;
-        //    case AVATARSTATES.AVATAR_THIRDNORMALATTACK:
-        //        m_pAnimator.SetBool("RUN", false);
-        //        m_pHandAnimator.SetBool("RUN", false);
-        //        m_pAnimator.SetBool("JUMP", false);
-        //        m_pHandAnimator.SetBool("JUMP", false);
-        //        m_pAnimator.SetBool("ATTACK", true);
-        //        m_pHandAnimator.SetBool("ATTACK", true);
-        //        m_pAnimator.SetInteger("ATTACK MODE", 3);
-        //        m_pHandAnimator.SetInteger("ATTACK MODE", 3);
-        //        if (m_strAttackName == string.Empty)
-        //            m_strAttackName = "THIRD ATTACK";
-        //        break;
-        //    case AVATARSTATES.AVATAR_HIT:
-        //        m_pAnimator.SetBool("RUN", false);
-        //        m_pHandAnimator.SetBool("RUN", false);
-        //        m_pAnimator.SetBool("LADDER", false);
-        //        m_pAnimator.SetBool("LADDER RUN", false);
-        //        m_pAnimator.SetBool("ATTACK", false);
-        //        m_pHandAnimator.SetBool("ATTACK", false);
-        //        m_pAnimator.SetBool("JUMP", true);
-        //        m_pHandAnimator.SetBool("JUMP", true);
-        //        Hit();
-        //        m_strAttackName = string.Empty;
-        //        break;
-        //    case AVATARSTATES.AVATAR_DEAD:
-        //        m_pAnimator.SetBool("RUN", false);
-        //        m_pHandAnimator.SetBool("RUN", false);
-        //        m_pAnimator.SetBool("LADDER", false);
-        //        m_pAnimator.SetBool("LADDER RUN", false);
-        //        m_pAnimator.SetBool("ATTACK", false);
-        //        m_pHandAnimator.SetBool("ATTACK", false);
-        //        m_pAnimator.SetBool("JUMP", false);
-        //        m_pHandAnimator.SetBool("JUMP", false);
-        //        Dead();
-        //        m_strAttackName = string.Empty;
-        //        break;
-        //}
+        // m_strAttackName 변수로 공격 모션 애니메이션에서 대기 애니매이션 전환을 위한 변수입니다.
 
-        switch (m_eAvatarState)
+        switch (m_eAvatarState) // 현재 상태값에 따른 분기문입니다.
         {
-            case AVATARSTATES.AVATAR_IDLE:
+            case AVATARSTATES.AVATAR_IDLE: // 대기 상태
                 m_pAnimator.SetBool("JUMP", false);
                 m_pHandAnimator.SetBool("JUMP", false);
                 m_pAnimator.SetBool("RUN", false);
@@ -263,7 +128,7 @@ public class Body : PART
                     m_pSpriteRenderer.color = new Color(1.0f, 1.0f, 1.0f);
                 m_strAttackName = string.Empty;
                 break;
-            case AVATARSTATES.AVATAR_RUN:
+            case AVATARSTATES.AVATAR_RUN: // 달리기 
                 m_pAnimator.SetBool("JUMP", false);
                 m_pHandAnimator.SetBool("JUMP", false);
                 m_pAnimator.SetBool("RUN", true);
@@ -276,7 +141,7 @@ public class Body : PART
                     m_pHandAnimator.gameObject.SetActive(true);
                 m_strAttackName = string.Empty;
                 break;
-            case AVATARSTATES.AVATAR_JUMP:
+            case AVATARSTATES.AVATAR_JUMP: // 점프 모션 
                 m_strAttackName = string.Empty;
                 m_pAnimator.SetBool("RUN", false);
                 m_pHandAnimator.SetBool("RUN", false);
@@ -290,14 +155,14 @@ public class Body : PART
                     m_pHandAnimator.gameObject.SetActive(true);
                 m_strAttackName = string.Empty;
                 break;
-            case AVATARSTATES.AVATAR_LADDER:
+            case AVATARSTATES.AVATAR_LADDER: // 사다리나 로프에 올라탈 시 대기 상태 
                 m_pAnimator.SetBool("LADDER", true);
                 m_pAnimator.SetBool("LADDER RUN", false);
                 m_pAnimator.SetBool("ATTACK", false);
                 m_pHandAnimator.SetBool("ATTACK", false);
                 m_strAttackName = string.Empty;
                 break;
-            case AVATARSTATES.AVATAR_LADDERRUN:
+            case AVATARSTATES.AVATAR_LADDERRUN: // 사다리나 로프에 오르고 내려올 때 애니메이션 
                 m_pAnimator.SetBool("JUMP", false);
                 m_pHandAnimator.SetBool("JUMP", false);
                 m_pAnimator.SetBool("RUN", false);
@@ -307,10 +172,10 @@ public class Body : PART
                 m_pHandAnimator.SetBool("ATTACK", false);
                 m_strAttackName = string.Empty;
                 break;
-            case AVATARSTATES.AVATAR_FIRSTNORMALATTACK:
+            case AVATARSTATES.AVATAR_FIRSTNORMALATTACK: // 첫 번째 공격 모션 
                 if (m_strAttackName != string.Empty)
                     break;
-                m_strAttackName = "FIRST ATTACK";
+                m_strAttackName = "FIRST ATTACK"; // 첫 번째 공격 레이어명으로 변경 
                 m_pAnimator.SetBool("RUN", false);
                 m_pHandAnimator.SetBool("RUN", false);
                 m_pAnimator.SetBool("JUMP", false);
@@ -320,7 +185,7 @@ public class Body : PART
                 m_pAnimator.SetInteger("ATTACK MODE", 1);
                 m_pHandAnimator.SetInteger("ATTACK MODE", 1);
                 break;
-            case AVATARSTATES.AVATAR_SECONDNORMALATTACK:
+            case AVATARSTATES.AVATAR_SECONDNORMALATTACK: // 두 번째 공격 모션 
                 if (m_strAttackName != string.Empty)
                     break;
                 m_pAnimator.SetBool("RUN", false);
@@ -331,9 +196,9 @@ public class Body : PART
                 m_pHandAnimator.SetBool("ATTACK", true);
                 m_pAnimator.SetInteger("ATTACK MODE", 2);
                 m_pHandAnimator.SetInteger("ATTACK MODE", 2);
-                m_strAttackName = "SECOND ATTACK";
+                m_strAttackName = "SECOND ATTACK"; // 두 번째 공격 레이어명으로 변경
                 break;
-            case AVATARSTATES.AVATAR_THIRDNORMALATTACK:
+            case AVATARSTATES.AVATAR_THIRDNORMALATTACK: // 세 번째 공격 모션 
                 if (m_strAttackName != string.Empty)
                     break;
                 m_pAnimator.SetBool("RUN", false);
@@ -344,9 +209,9 @@ public class Body : PART
                 m_pHandAnimator.SetBool("ATTACK", true);
                 m_pAnimator.SetInteger("ATTACK MODE", 3);
                 m_pHandAnimator.SetInteger("ATTACK MODE", 3);
-                m_strAttackName = "THIRD ATTACK";
+                m_strAttackName = "THIRD ATTACK"; // 세 번째 공격 레이어명으로 변경
                 break;
-            case AVATARSTATES.AVATAR_HIT:
+            case AVATARSTATES.AVATAR_HIT: // 몬스터와 충돌시 
                 m_pAnimator.SetBool("RUN", false);
                 m_pHandAnimator.SetBool("RUN", false);
                 m_pAnimator.SetBool("LADDER", false);
@@ -358,7 +223,7 @@ public class Body : PART
                 Hit();
                 m_strAttackName = string.Empty;
                 break;
-            case AVATARSTATES.AVATAR_DEAD:
+            case AVATARSTATES.AVATAR_DEAD: // 사망 
                 m_pAnimator.SetBool("RUN", false);
                 m_pHandAnimator.SetBool("RUN", false);
                 m_pAnimator.SetBool("LADDER", false);
@@ -372,7 +237,7 @@ public class Body : PART
                 break;
         }
 
-        Chanking();
+        Chanking(); 
     }
 
     public override Vector3 IDLE()
@@ -385,8 +250,10 @@ public class Body : PART
         return Vector3.zero;
     }
 
-    private void SelectAnimation()
+    private void SelectAnimation() //상위 오브젝트가 케릭터 커스터마이징시 애니메이션을 실행하기 위한 함수입니다.
     {
+        // 애니메이터로 몸체의 애니메이션을 전환을 위해 Setbool로 제어했습니다.
+
         switch(m_eAvatarState)
         {
             case AVATARSTATES.AVATAR_IDLE:
@@ -430,7 +297,7 @@ public class Body : PART
         }
     }
 
-    private bool IsEndAnimation(string _AnimationName)
+    private bool IsEndAnimation(string _AnimationName) // 애니메이션 끝남 여부를 알려주는 함수입니다.
     {
         bool _AnimationFinal = false;
 
@@ -439,26 +306,30 @@ public class Body : PART
         return _AnimationFinal;
     }
 
-    private void Chanking()
+    private void Chanking() // 공격 모션 애니메이션 완료 확인하기 위한 함수입니다.
     {
-        if((int)m_eAvatarState >= (int)AVATARSTATES.AVATAR_FIRSTNORMALATTACK)
-        {
-            bool _bIsIdle = IsEndAnimation(m_strAttackName);
+        // eunm 변수 값을 int형으로 캐스팅하여 첫 번째 공격 모션 이상일 경우 
 
-            if (true == _bIsIdle)
+        if ((int)m_eAvatarState >= (int)AVATARSTATES.AVATAR_FIRSTNORMALATTACK) 
+        {
+            bool _bIsIdle = IsEndAnimation(m_strAttackName); // 공격 레이어 명으로 애니메이션 종료 확인하여 
+
+            if (true == _bIsIdle) // 종료 되었다면 
             {
                 m_eAvatarState = AVATARSTATES.AVATAR_IDLE;
 
-                m_pPlayer.AccessPlayerState = PLAYERSTATE.PLAYER_IDLE;
+                m_pPlayer.AccessPlayerState = PLAYERSTATE.PLAYER_IDLE; 
 
                 m_pPlayer.AccessAttack = false;
 
                 m_strAttackName = string.Empty;
+
+                // 상태값을 다시 변경 기본 대기 상태로 변경 
             }
         }
     }
 
-    private void Hit() // 함수 호출 까지는 되는데 .. 여기서 색상 정보를 확인 해야 한다 ?!
+    private void Hit() // 피격 시 플레이어의 색상을 변경하는 함수입니다.
     {
         float Color = m_pSpriteRenderer.color.r;
 
@@ -474,36 +345,38 @@ public class Body : PART
         }
     }
 
-    private void Dead()
+    private void Dead() // 플레이어 사망시 호출하는 함수입니다.
     {
-        if (m_bIsDead == false)
+        if (m_bIsDead == false) // 사망 시 유령 애니메이션으로 전환합니다.
         {
             m_pAnimator.SetBool("DEAD", true);
 
             m_bIsDead = true;
         }
 
-        if(m_bIsDead == true)
+        if(m_bIsDead == true) // 이후 사망시 유령의 이미지를 위 아래로 움직 일 수 있게 합니다.
         {
             Vector3 _Position = transform.localPosition;
 
-            if (m_bIsUpDown == 1)
+            if (m_IsUpDown == 1)
             {
                 _Position += Vector3.down * 0.1f * Time.deltaTime;
 
                 if (_Position.y <= 0.0f)
-                    m_bIsUpDown = 2;
+                    m_IsUpDown = 2;
             }
-            else if (m_bIsUpDown != 1)
+            else if (m_IsUpDown != 1)
             {
                 _Position += Vector3.up * 0.1f * Time.deltaTime;
 
                 if (_Position.y >= 0.3f)
-                    m_bIsUpDown = 1;
+                    m_IsUpDown = 1;
             }
 
             transform.localPosition = _Position;
         }
+
+        // 해당 장비 및 신체 부위 오브젝트를 모두 비활성화합니다.
 
         if (m_pHandAnimator.gameObject.activeSelf == true)
             m_pHandAnimator.gameObject.SetActive(false);
@@ -514,13 +387,8 @@ public class Body : PART
         if (m_pLowerBody.AccessEquipItemObject.activeSelf == true)
             m_pLowerBody.AccessEquipItemObject.SetActive(false);
 
-        //if (m_pLowerBody.AccessEquipItemObject.activeSelf == true)
-        //    m_pLowerBody.AccessEquipItemObject.SetActive(false);
-
         if (m_pFoot.AccessEquipItemObject.activeSelf == true)
             m_pFoot.AccessEquipItemObject.SetActive(false);
-
-        // 여기서 문제생길시 .. 아이템 비활성화 한다 .. 등...
     }
 
     public void ResetState()
@@ -539,7 +407,7 @@ public class Body : PART
 
         m_bIsDead = false;
 
-        m_bIsUpDown = 0;
+        m_IsUpDown = 0;
 
         m_pAnimator.SetBool("DEAD", false);
 

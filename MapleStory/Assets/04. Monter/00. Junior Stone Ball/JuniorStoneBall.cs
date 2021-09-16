@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JuniorStoneBall : MONTER
+// 몬스터들의 동작들은 애니메이터에서 별도로 애니메이션 동작마다 스크립트를 구성하게 했습니다.
+
+public class JuniorStoneBall : MONTER // 주니어 스톤볼 클래스입니다.
 {
     [SerializeField] private AudioClip _HitSound = null;
 
@@ -68,6 +70,7 @@ public class JuniorStoneBall : MONTER
         Gizmos.DrawWireCube(transform.position, BoxSize);
     }
 
+    // 이펙트와 충돌시 애니메이션을 변경하는 함수입니다.
     public override void SetHItAnimation()
     {
         if (_Hp <= 0.0f)
@@ -83,13 +86,15 @@ public class JuniorStoneBall : MONTER
 
     public void Update()
     {
-        if (_Hp <= 0.0f)
+        if (_Hp <= 0.0f) // 해당 몬스터가 사망했다면 
         {
             m_pAnimator.SetBool("DEAD", true);
 
             m_pAnimator.SetBool("RUN", false);
 
             m_pAnimator.SetBool("HIT", false);
+
+            // 애니메이션의 변경 
 
             if (m_bIsDeadSound == false)
             {
@@ -102,6 +107,7 @@ public class JuniorStoneBall : MONTER
         }
     }
 
+    // 다시 활성화 함수 호출 시 체력을 회복하게 했습니다.
     public void OnEnable()
     {
         if (m_fMaxHp == 0.0f)
@@ -123,42 +129,3 @@ public class JuniorStoneBall : MONTER
         m_pAnimator = null;
     }
 }
-
-//private void OnTriggerExit2D(Collider2D collision)
-//{
-//    MONTER.m_iCollisionCount = 0;
-//}
-
-
-//private void OnTriggerEnter2D(Collider2D collision)
-//{
-//    EFFECT _Effect = collision.GetComponent<EFFECT>();
-
-//    if (null == _Effect)
-//        return;
-
-//    if (MONTER.m_iCollisionCount >= 1)
-//        return;
-
-//    if (collision.gameObject.tag == "Attack Effect")
-//    {
-//        m_iCollisionCount = 1;
-
-//        _Effect.CreateHitEffect(collision.transform.position); // ? 충돌된 좌표인지 ?? 아니면 충돌 받은 객체의 좌표인지 ?? 애메하다 ../
-
-//        if (_Hp <= 0.0f)
-//        {
-//            m_pAnimator.SetBool("DEAD", true);
-
-//            m_pAnimator.SetBool("RUN", false);
-
-//            m_pAnimator.SetBool("HIT", false);
-
-//            //m_pPlayerObject.AccessExp += 10.0f;
-
-//            return;
-//        }
-
-//        m_pAnimator.SetBool("HIT", true);
-//    }
-//}

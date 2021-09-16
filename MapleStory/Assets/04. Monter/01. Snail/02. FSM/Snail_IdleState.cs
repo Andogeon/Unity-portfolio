@@ -6,13 +6,9 @@ public class Snail_IdleState : StateMachineBehaviour
 {
     private float m_fTimeAcc = 0.0f;
 
-    // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
-    //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    
-    //}
-
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
+
+    // JuniorStoneIdleState 클래스 OnStateUpdate 함수와 동일합니다.
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         m_fTimeAcc += Time.deltaTime;

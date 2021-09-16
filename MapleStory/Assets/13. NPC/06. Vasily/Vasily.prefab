@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1502428666996015768}
   - component: {fileID: 8661276019838195503}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Name Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -227,15 +227,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Message:
-  - "\u314B"
-  - "\u314B\u314B"
-  - "\u314B\u314B\u314B"
-  _Quest: {fileID: 0}
-  _NextQuest: {fileID: 0}
-  _MessageBar: {fileID: 0}
-  _defaultMessage: 
-  _FirstQuestFinalMessage: "\uC218\uACE0\uD588\uC5B4 !"
-  _NextQuestMessage: []
+  - "\uBAAC\uC2A4\uD130"
+  - "\uC7A1\uC544\uBD10 "
+  - ??!!@#!
+  _Quest: {fileID: 4422036855066901909, guid: af44f7471d284554c8ff5d40668d447c, type: 3}
+  _NameSpriteRenderer: {fileID: 7358146653157656006}
+  _NameBarSpriteRenderer: {fileID: 8661276019838195503}
+  _RucasQuest: {fileID: 0}
+  _NextQuest: {fileID: 1113935035812121273, guid: d300d7f11ca688240aa24b64a7961dbe,
+    type: 3}
+  _MessageBar: {fileID: 7681282266095537294, guid: 60822b190386b7d4eb909d39bb62ee94,
+    type: 3}
+  _defaultMessage: "\uBE45\uD1A0\uB9AC\uC544 \uC544\uC77C\uB79C\uB4DC\uB294 \uC5C4\uCCAD
+    \uC88B\uC740 \uB300\uB959\uC774\uC9C0 !!"
+  _FirstQuestFinalMessage: "\uC624 \uC790\uB124\uAC00 \uB8E8\uCE74\uC2A4\uB2D8\uAED8\uC11C
+    \uB9D0\uC500\uD558\uC168\uB358 \uBAA8\uD5D8\uAC00\uAD70. \uD558\uC9C0\uB9CC \uADF8
+    \uC804\uC5D0 \uB85C\uBBF8\uC624\uAC00 \uD070 \uBB38\uC81C\uAC00 \uC0DD\uACBC\uB2E4\uACE0
+    \uD558\uB294\uAD6C\uB9CC. \uD55C \uBC88 \uB3C4\uC640\uC8FC\uAC8C"
+  _NextQuestMessage:
+  - "\uC774\uC81C \uCD9C\uBC1C \uC900\uBE44\uB294 \uB05D\uB0AC\uB294\uB370 \uBB38\uC81C\uAC00
+    \uC0DD\uACBC\uC5B4... \uBC30 \uC548\uC5D0 \uB9C8\uB178\uB77C\uB294 \uB140\uC11D\uC774
+    \uBC30\uB97C \uD718\uC813\uACE0 \uB2E4\uB2C8\uACE0 \uC788\uC5B4 "
+  - "\uADF8 \uB140\uC11D\uC744 \uC7A1\uC544\uC11C \uBE68\uB9AC \uCD9C\uBC1C \uD560
+    \uC218 \uC788\uAC8C \uC880 \uB3C4\uC640\uC8FC\uAC8C !!"
   _LayerMask:
     serializedVersion: 2
     m_Bits: 32
@@ -250,7 +264,7 @@ GameObject:
   - component: {fileID: 4241023009817351156}
   - component: {fileID: 7358146653157656006}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

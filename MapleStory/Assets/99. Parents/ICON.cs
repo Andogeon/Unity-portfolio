@@ -20,15 +20,15 @@ public enum ICONSTATE
 
 public class ICON : UI
 {
-    [SerializeField] private ICONTYPE _ConType = ICONTYPE.ICON_EQUIP;
+    [SerializeField] private ICONTYPE _ConType = ICONTYPE.ICON_EQUIP; // 아이콘의 상태 
 
-    [SerializeField] private SlotTpye _SlotType = SlotTpye.Slot_Weapon;
+    [SerializeField] private SlotTpye _SlotType = SlotTpye.Slot_Weapon; // 장비창에서 사용될 슬롯 타입
 
-    [SerializeField] private ITEM _OrlItem = null;
+    [SerializeField] private ITEM _OrlItem = null; // 아이콘에서 사용 될 원본 아이템 클래스 오브젝트 
 
-    [SerializeField] private Sprite[] _NumberSprites = null;
+    [SerializeField] private Sprite[] _NumberSprites = null; // 인벤토리에서 사용될 숫자 스프라이트들
 
-    [SerializeField] private Vector3 _Size = Vector3.zero;
+    [SerializeField] private Vector3 _Size = Vector3.zero; // 아이콘의 크기를 지정할 변수 
 
     private ICONSTATE m_eIConState = ICONSTATE.ICON_EQUIP;
 
@@ -243,17 +243,7 @@ public class ICON : UI
         }
     }
 
-    //public void CopyCollision()
-    //{
-    //    if (gameObject.layer == LayerMask.NameToLayer("Copy"))
-    //    {
-    //        Collider2D _Collision = Physics2D.OverlapBox(transform.position, _Size, 0.0f);
-
-    //        if (null == _Collision)
-    //        {
-    //        }
-    //    }
-    //}
+    
 
     public void OnDestroy()
     {
@@ -275,7 +265,17 @@ public class ICON : UI
 
 
 
+//public void CopyCollision()
+//{
+//    if (gameObject.layer == LayerMask.NameToLayer("Copy"))
+//    {
+//        Collider2D _Collision = Physics2D.OverlapBox(transform.position, _Size, 0.0f);
 
+//        if (null == _Collision)
+//        {
+//        }
+//    }
+//}
 
 
 //public class ICON : UI

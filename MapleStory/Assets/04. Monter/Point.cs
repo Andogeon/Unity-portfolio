@@ -24,6 +24,7 @@ public class Point : MonoBehaviour
         _Monter.AccessMonterName = _CreateMonter.name;
     }
 
+    // 해당 몬스터가 사망시 1.5초 뒤에 위치 값에 따라 다시 리젠하게 구현했습니다.
     private void LateUpdate()
     {
         if (null == m_pMonterObject)

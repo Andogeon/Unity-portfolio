@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Snail_AttackState : StateMachineBehaviour
+// 애니메이터 달팽이 공격 모션 클래스입니다.
+public class Snail_AttackState : StateMachineBehaviour 
 {
     private Transform m_pStoneTransform = null;
 
@@ -25,6 +26,8 @@ public class Snail_AttackState : StateMachineBehaviour
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
+
+    // JuniorStoneAttackState 클래스 OnStateUpdate 함수와 동일합니다
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         if (m_pStoneBall.AccessHp <= 0.0f)
@@ -101,8 +104,6 @@ public class Snail_AttackState : StateMachineBehaviour
                 return;
             }
 
-            // 버그 생길시 여기서 확인해볼것 !
-
             _Direction.y = 0.0f;
 
             float Angle = Vector2.Angle(_Direction.normalized, Vector2.left);
@@ -111,21 +112,6 @@ public class Snail_AttackState : StateMachineBehaviour
 
             m_pStoneTransform.position += (Vector3)_Direction.normalized * 1.0f * Time.deltaTime;
         }
-
-
-        //else // 추적
-        //{
-        //    if (m_eAttackDirection != ATTACKDIRECTION.ATTACK_READY)
-        //        m_eAttackDirection = ATTACKDIRECTION.ATTACK_READY;
-
-        //    _Direction.y = 0.0f;
-
-        //    float Angle = Vector2.Angle(_Direction.normalized, Vector2.left);
-
-        //    m_pStoneTransform.rotation = Quaternion.Euler(0.0f, Angle, 0.0f);
-
-        //    m_pStoneTransform.position += (Vector3)_Direction.normalized * 1.0f * Time.deltaTime;
-        //}
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
@@ -136,6 +122,7 @@ public class Snail_AttackState : StateMachineBehaviour
         m_pFollowTransform = null;
     }
 
+    // JuniorStoneAttackState 클래스 AttackDirection 함수와 동일합니다
     private void AttackDirection()
     {
         Vector2 LeftPosition = new Vector2(m_pFollowTransform.position.x - 1.0f, 0.0f);

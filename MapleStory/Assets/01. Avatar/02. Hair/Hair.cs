@@ -28,7 +28,7 @@ public class Hair : PART
         return Vector3.zero;
     }
 
-    public override Sprite GetSprite()
+    public override Sprite GetSprite() // 헤어 스프라이트의 데이터를 넘겨는 함수 
     {
         return m_pSpriteRenderer.sprite;
     }

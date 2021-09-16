@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HandSomeFace : FACE
+public class HandSomeFace : FACE // 잘생긴 얼굴 
 {
     public override Sprite GetSprite()
     {

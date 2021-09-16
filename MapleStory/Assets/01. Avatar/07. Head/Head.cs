@@ -93,19 +93,6 @@ public class Head : PART
             m_pHairObject.ResetHair();
         }
 
-        //switch (m_pSpriteRenderer.sprite.name)
-        //{
-        //    case "stand1.0.body":
-        //        transform.localPosition = new Vector3(0.027f, 0.315f);
-        //        break;
-        //    case "stand1.1.body":
-        //        transform.localPosition = new Vector3(0.032f, 0.316f);
-        //        break;
-        //    case "stand1.2.body":
-        //        transform.localPosition = new Vector3(0.037f, 0.313f);
-        //        break;
-        //}
-
         switch (m_pSpriteRenderer.sprite.name)
         {
             case "stand1.0.body":
@@ -135,22 +122,6 @@ public class Head : PART
 
             m_pFaceObject.gameObject.SetActive(true);
         }
-
-        //switch (m_pSpriteRenderer.sprite.name)
-        //{
-        //    case "run0.body":
-        //        transform.localPosition = new Vector3(0.022f, 0.312f);
-        //        break;
-        //    case "run1.body":
-        //        transform.localPosition = new Vector3(-0.006f, 0.298f);
-        //        break;
-        //    case "run2.body":
-        //        transform.localPosition = new Vector3(0.036f, 0.312f);
-        //        break;
-        //    case "run3.body":
-        //        transform.localPosition = new Vector3(0.035f, 0.305f);
-        //        break;
-        //}
 
         switch (m_pSpriteRenderer.sprite.name)
         {
@@ -226,9 +197,6 @@ public class Head : PART
         }
 
         transform.localPosition = new Vector3(0.016f, 0.214f);
-
-
-        //transform.localPosition = new Vector3(0.015f, 0.299f);
     }
 
     private void Ladder()
@@ -237,11 +205,9 @@ public class Head : PART
         {
             case "ladder.0.body":
                 transform.localPosition = new Vector3(-0.004f, 0.145f);
-                //transform.localPosition = new Vector3(-0.007f, 0.232f);
                 break;
             case "ladder.1.body":
                 transform.localPosition = new Vector3(0.018f, 0.145f);
-                //transform.localPosition = new Vector3(0.012f, 0.228f);
                 break;
         }
 

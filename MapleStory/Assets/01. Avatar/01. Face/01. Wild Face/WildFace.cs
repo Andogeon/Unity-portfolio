@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WildFace : FACE
+public class WildFace : FACE // 날카로운 얼굴
 {
     public override Sprite GetSprite()
     {

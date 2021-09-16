@@ -12,8 +12,6 @@ public abstract class NPC : MonoBehaviour
 
     [SerializeField] protected SpriteRenderer _NameBarSpriteRenderer = null;
 
-    //[SerializeField] static protected QUEST _Quest = null;
-
     protected bool m_bIsQuestStart = false;
 
     protected int m_iMessageIndex = 0;
@@ -22,17 +20,20 @@ public abstract class NPC : MonoBehaviour
 
     protected SpriteRenderer m_pSpriteRenderer = null;
 
-    //protected Sprite m_pNameSprite = null;
-
-    //protected Sprite m_pNameBarSprite = null;
-
     protected bool m_bIsQusetMode = false;
 
-    protected private bool m_bIsOnClick = false;
+    protected bool m_bIsOnClick = false;
 
     protected NPC m_pNextNpc = null;
 
-    
+    //protected static bool m_bIsQuestClear = false;
+
+    //public static bool AccessQuestClear
+    //{
+    //    get { return m_bIsQuestClear; }
+
+    //    set { m_bIsQuestClear = value; }
+    //}
 
     public int AccessMessageIndex
     {
@@ -74,20 +75,6 @@ public abstract class NPC : MonoBehaviour
         set { m_pSpriteRenderer = value; }
     }
 
-    //public Sprite AccessNameBarSprite
-    //{
-    //    get { return m_pNameBarSprite; }
-
-    //    set { m_pNameBarSprite = value; }
-    //}
-
-    //public Sprite AccessNameSprite
-    //{
-    //    get { return m_pNameSprite; }
-
-    //    set { m_pNameSprite = value; }
-    //}
-
     public bool AccessQuestMode
     {
         get { return m_bIsQusetMode; }
@@ -109,14 +96,37 @@ public abstract class NPC : MonoBehaviour
         set { m_pNextNpc = value; }
     }
 
+    public virtual void QuestNextNPC()
+    {
+        return;
+    }
+
     public virtual void ResetButton()
     {
         return;
     }
 }
 
+//[SerializeField] static protected QUEST _Quest = null;
+
+//protected Sprite m_pNameSprite = null;
+
+//protected Sprite m_pNameBarSprite = null;
 
 
+//public Sprite AccessNameBarSprite
+//{
+//    get { return m_pNameBarSprite; }
+
+//    set { m_pNameBarSprite = value; }
+//}
+
+//public Sprite AccessNameSprite
+//{
+//    get { return m_pNameSprite; }
+
+//    set { m_pNameSprite = value; }
+//}
 
 
 

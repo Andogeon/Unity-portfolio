@@ -568,7 +568,6 @@ MonoBehaviour:
     m_Bits: 4096
   _UpRayDirection: {x: 0, y: 0.7, z: 0}
   _DownRayDirection: {x: 0, y: 0.05, z: 0}
-  m_fLength: 1
 --- !u!61 &5079891586087935693
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -739,8 +738,9 @@ MonoBehaviour:
     m_Bits: 4096
   _Direction: {x: 0, y: -1.5}
   _JumpDirection: {x: 0, y: 0}
-  _BoxSize: {x: 1.04, y: 0.15, z: 0}
-  _OffSetPosition: {x: 0.02, y: -0.71, z: 0}
+  _BoxSize: {x: 1.04, y: 0.28, z: 0}
+  _OffSetPosition: {x: 0.02, y: -0.84, z: 0}
+  _OffPosition: {x: 0, y: -0.6, z: 0}
 --- !u!50 &5079891587156494086
 Rigidbody2D:
   serializedVersion: 4
@@ -758,7 +758,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 4
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
