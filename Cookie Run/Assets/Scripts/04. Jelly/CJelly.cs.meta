@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: fa3e8cc60469a9149b1d01e6ac6dae4f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_JellyEatEffect: {fileID: 6562256087064319832, guid: 8151da3033a9d4d43999484af1c0d697, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

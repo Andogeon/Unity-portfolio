@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tile
+  - Empty
+  - Cookie
+  - Jelly
+  - Hit
+  - Bouns
+  - EventBox
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - CookieFoot
+  - Water
+  - UI
+  - Tile
+  - CookieBody
+  - Map
+  - Jelly
+  - Hit
+  - Platform
+  - JellyEvent
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Map
+    uniqueID: 1130851451
+    locked: 0
+  - name: Cookie
+    uniqueID: 1988446535
+    locked: 0

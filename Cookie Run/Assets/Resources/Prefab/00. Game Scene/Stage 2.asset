@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 644df7c1b26eaef43a3b0e379c482bb9, type: 3}
+  m_Name: Stage 2
+  m_EditorClassIdentifier: 
+  m_SceneBackGrounds:
+  - {fileID: 21300000, guid: 04a214b13b657e34fb8f12a309736d19, type: 3}
+  - {fileID: -81337529, guid: 98ed41119ae3ffc4da9784366fc7f961, type: 3}
+  - {fileID: 21300000, guid: 1ce87073f131ba04085dfc49a0483185, type: 3}
+  - {fileID: 21300000, guid: 4bbd3bd14376a98448e026416cd5d2b3, type: 3}
+  m_SceneTiles:
+  - {fileID: 6888373345975589894, guid: 1430e093bc7d892429fb5981fd76467e, type: 3}
+  - {fileID: 6888373345975589894, guid: eee89b6f333eb0e4994f0f09b80f28b8, type: 3}
+  - {fileID: 5925689621401130290, guid: 50296390fbc8dca43a90843a00eaa1d7, type: 3}
+  - {fileID: 6888373345975589894, guid: ae016e166c33f59469be77adaa67591f, type: 3}
+  - {fileID: 6888373345975589894, guid: 06c8d4bb5a0727c418cef45a80f610ae, type: 3}
+  - {fileID: 4309612201136400918, guid: 36e1eff18016cd04599eb9382f0e3bec, type: 3}
+  - {fileID: 5679288067074631726, guid: b24d06e8f9858ed4f848f5807bb41581, type: 3}
+  - {fileID: 7325765121080365899, guid: a7abd7d803879d041b9a862bc38eba4e, type: 3}
+  - {fileID: 7325765121080365899, guid: a60753eb4027e3a4f831289559ff2e3d, type: 3}
+  - {fileID: 7325765121080365899, guid: c3f1f285f5edec54985f8caf9e064de9, type: 3}
+  - {fileID: 7325765121080365899, guid: d96b0b6c5d4e0f54ab1011a1dc6fc41a, type: 3}
+  - {fileID: 7325765121080365899, guid: 17b81d0ba2ac6ba4ca491c9c416cee1a, type: 3}
+  - {fileID: 7325765121080365899, guid: 48d745926eda29b4b9e6d840655811f3, type: 3}
+  - {fileID: 7325765121080365899, guid: 808fa0eff2d99eb44858fe3c59770e3a, type: 3}
+  - {fileID: 7325765121080365899, guid: 4cba386a99698a5419bb4bbbbbce9d6f, type: 3}
+  - {fileID: 7325765121080365899, guid: c1375132490a5d34ab557ddccd98ad6d, type: 3}
+  - {fileID: 7325765121080365899, guid: aff2a4ce5a0361e41a5b810ee0f87383, type: 3}
+  - {fileID: 7325765121080365899, guid: 34df9dc61eaeaa54da12151225a5f3a0, type: 3}
+  - {fileID: 7325765121080365899, guid: 21a8f2a6d1252e84ebbef327c96efe8a, type: 3}
+  - {fileID: 7325765121080365899, guid: b0b16e59d87460a46a366ab4fbf7bb66, type: 3}
+  - {fileID: 7325765121080365899, guid: b737524916d5496488b0bce529881c82, type: 3}
+  - {fileID: 7325765121080365899, guid: 6b43c9d123b00ac47adfccdd5d2505ff, type: 3}
+  - {fileID: 7325765121080365899, guid: 4c41bf41f2186fa488fc7233bfc8e2fa, type: 3}
+  - {fileID: 7325765121080365899, guid: ab32551358709294896a340d9c8e8f9d, type: 3}
+  - {fileID: 7325765121080365899, guid: 936278bd1d93f1b4a928e927becd154c, type: 3}
+  - {fileID: 7325765121080365899, guid: b2dff95c1f65f22498eba46d3831acc6, type: 3}
+  m_SceneBounsTiles:
+  - {fileID: 6888373345975589894, guid: 2cf0f7bb1570792429cb1f79e339d803, type: 3}
+  - {fileID: 6888373345975589894, guid: e3ca7313ce6e81f468877ff115f6fbcd, type: 3}
+  - {fileID: 6888373345975589894, guid: 18899fcca0603064682d1b82f8aee3f5, type: 3}
+  - {fileID: 6888373345975589894, guid: d2ab08cfe7c06e946bfd4ecf9c590837, type: 3}
+  m_strSceneName: Stage 1

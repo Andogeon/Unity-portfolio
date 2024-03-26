@@ -1,0 +1,6298 @@
+fileFormatVersion: 2
+guid: f6d70e6bc1875c6419b6222ac3bfd479
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 979
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae22399c729f4e04b9660babd6c3defa
+      internalID: -142051265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 979
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8650dafd38fbd25408d8ca8ec07ffd2b
+      internalID: 1708726159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 981
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40afe27cc954864b81987280508bc73
+      internalID: 724389833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 981
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9baa221af2f0f34b97238d460ed0be7
+      internalID: 1454027757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 981
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f61cd16708c0a43861bda30d94561d
+      internalID: 1401269855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 982
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8a11a335537d84caf060b5af9c95fa
+      internalID: -1669373568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 981
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6b59361502fc54392e520e0fead703
+      internalID: 1219466021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 981
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecd8a5e8afa11444a115c2500bc80d4
+      internalID: 389726689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_8
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 948
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ade03b3c09f6aa48a2d6c8dcfd0ccda
+      internalID: -1545660808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 946
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a368b0914df5940a24f885c7a8517a
+      internalID: 1678771018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_10
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 946
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0da345e0798b246b314e0c17af7da0
+      internalID: -1889730737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_11
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 946
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be68fbbcb4803e40b80f6ed5794e3af
+      internalID: 148159811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 943
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb30484837b25440bf5f775a580ff52
+      internalID: 100958434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_13
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 943
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b7f3e283265444082ee4d28a87daa1
+      internalID: -931210370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_14
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 943
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369d932a9d1132f4e87817b446abecb2
+      internalID: 692624588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_15
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 945
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa6c52d9f7d1d6439bbab5c1451b711
+      internalID: 586886551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 943
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3ede7baca04e545af16edc4d9e85bb
+      internalID: 1037677910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 944
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5463b155e6ad32b4791e809ab8269e86
+      internalID: 1150251951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 945
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c24ba1767c3736449d3e39b6a078205
+      internalID: 1042141279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 945
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d314822fe64ca46b3099ec585a49fe
+      internalID: -138690522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_20
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 945
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f982f71668feb848b84cfda81686167
+      internalID: 790727499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_21
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 945
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e2f1ff4dd439e4fb7055f792c6a48b
+      internalID: 659119088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_22
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 945
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e4eb7efb7d15a4ab8637d51b7984fd
+      internalID: -248614577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_23
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 945
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a61cfec8c25ede4b9dd6438e2d7a0a7
+      internalID: -1007505358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 949
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438f7e84dba3dc14b9f09bf17cd313a1
+      internalID: 406673665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_25
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 949
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6774c012e031f84eacbc7a39cf50747
+      internalID: -1453340540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_26
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 916
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a749d49f63268614a9b3a7a1689bc5cd
+      internalID: -639913392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_27
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 920
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d472732d828ae419695fc0d11d3652
+      internalID: 1911620316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 920
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551418a2ef8ac6042b0c3a4ad2d65d60
+      internalID: -121212752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_29
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 923
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91aa563821918d74a9569039fb45651a
+      internalID: -1246565374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_30
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 928
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a645dfb2bfd6a8e42889f87a159fdcf6
+      internalID: 2062519242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_31
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 930
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bed1a29031da7439e0794ac9b4acd3
+      internalID: 1097977078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_32
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 877
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0357aa5a0aeb24c40b446bbaed803912
+      internalID: -952548226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 877
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8112c515e9e66f449875404252c1eeaa
+      internalID: -1485183970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_34
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 878
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc8197defc68504aa6b3d0174f85984
+      internalID: 169011129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_35
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 877
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d2195e86d26464a854a1a2f715b25c
+      internalID: 1931861302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_36
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 869
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010fb7f1324c47743837b13d2af52e35
+      internalID: -862002458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_37
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 871
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d57d7f0d710424eb178d38570ae873
+      internalID: 1518863423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_38
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 871
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4d652a50373fa4084128d3d06794a3
+      internalID: 1762159982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_39
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 871
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5168d39555b41499ebba490302ae9e
+      internalID: -1309560482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_40
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 903
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9817df6d353d95a429e7063664e63655
+      internalID: -1531098102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 874
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e218f8536b2b047bbf608ac092d3dc
+      internalID: 1708195172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_42
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 874
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6587fe2c99f9c43b54f3ba525ecb2a
+      internalID: 2078194090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_43
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 876
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36807623980a09e4987490198fad076f
+      internalID: -40470453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_44
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 876
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d8673800086ad4fbce696146b2b2bc
+      internalID: -618958532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_45
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 876
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9531c8a24ade72b43979c178da00c911
+      internalID: 365648523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_46
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 877
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fc06a7343ba164096222b9c4a9b6fa
+      internalID: -1908383495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_47
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 876
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497ba313e2bdb314bbfa41e90060a239
+      internalID: 819670469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_48
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 876
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197164fc484913f4f9b7dd8f4ccf6cba
+      internalID: 1705074710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_49
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 838
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69944342d6732904199f950c9fd48a66
+      internalID: 1045741175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_50
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 839
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00d899a22b8c0f42b211ba544c2730d
+      internalID: -1631060131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_51
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 840
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb726b6bf8998a4da87d3e0833e17c6
+      internalID: 452401090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_52
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 840
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a811102308f94324b8d40ba4ac0f3438
+      internalID: 2064822935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_53
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 840
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67973dae8183a1438ba2e8afcb04aff
+      internalID: 1889439117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_54
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 840
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff81f847b1229b4da7b3398499b10bd
+      internalID: -512064875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 840
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63cfaf3ac77e184dbcbf72cd24d4b86
+      internalID: -1154101648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_56
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 844
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70458092d75bd5a44984e112c63b8cca
+      internalID: 1868060894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_57
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 846
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea759e8eb5d71844a9530a2747afc2d
+      internalID: 1256965243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_58
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 850
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e062e6f88a9b57b46bb49a1404f6d7f3
+      internalID: 727242288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_59
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 806
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a793bbe401111994380c567f4fc733ba
+      internalID: -92824687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 808
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3cf69be9d369b4b8e54f3955d63ed2
+      internalID: -1931479675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 795
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e546b71f3b7a764d891828ee8824290
+      internalID: -465098657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_62
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 800
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81693fd307895054ea1c30f041d9bad8
+      internalID: 921506138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_63
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 815
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b845d14486dc9f248ae3d9e50ef5ffac
+      internalID: -859157993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_64
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 819
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6349f1d06472b42b3265053c98efc7
+      internalID: -217888627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_65
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 823
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1aae7d2f80bb04190ad53a43290e87
+      internalID: -1561546464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_66
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 825
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42c9d6bf8e0749459bafa3bb7fda004
+      internalID: -1467793983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_67
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 779
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4923bbad2e11b754c9d893fd587a9783
+      internalID: 548220559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_68
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 781
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7ba953697de0d47b6628cd31acae92
+      internalID: -112321495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_69
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 777
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfee25ca805e404ab2afe17b359e0b3
+      internalID: -1831723290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_70
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 773
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916b6b1e3dc68464096aec7d8a1ccd1e
+      internalID: 1089722782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_71
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 777
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2ecf3e4fb75b745875c8c7c4c4a521
+      internalID: 1450911655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_72
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 777
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d41fdf2882c3f44b8d43e9ab7a10c68
+      internalID: 1458591913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_73
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 782
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faca295a123382d46a99e57261fd14cb
+      internalID: 798858970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_74
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 769
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a04315b6bed8a244b69426761329fac
+      internalID: 256546629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_75
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 759
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e087035e8ffdd4bb7ec609d9d0ab3f
+      internalID: 1620418394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_76
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 767
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342b8c53cc224cc409573313d64eaafb
+      internalID: -400385570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_77
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 755
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b6eff6562097842ab785ae7fe64d35
+      internalID: -361933921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_78
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 748
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3394ca5c611806408902be58c2566fb
+      internalID: 1181421557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_79
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 741
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf684908a68ba84088da0185c0ede5d
+      internalID: 944779867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_80
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 735
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdb81a29880e7643a6ac3b34622d86e
+      internalID: -1398378811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_81
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 751
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae187b7765185cd4ebae507c6806a23e
+      internalID: 2120319316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_82
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 723
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ad11a16e094f64896a63a47b337491
+      internalID: -1684648988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_83
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 707
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d707b385a8cbc4c83fd84c5bfd3b20
+      internalID: 1857786580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_84
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 713
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a17bdf7e9ab284ba00e497cd45a6a1
+      internalID: 332293551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_85
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 722
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b4b32ce6f1400479323f649d7de693
+      internalID: -589253369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_86
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 707
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d58ad6dc166df4f82dbba2d7fcaa0c
+      internalID: 1316259799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_87
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 707
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a865d7bc0229c654d81a711d23fe0077
+      internalID: -280554631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_88
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 707
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bde5894d7456f74598fde9e8ef9646f
+      internalID: 536483677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_89
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 707
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e711901bb4ce2f45b12ff65c58e1b45
+      internalID: -941754259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_90
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 707
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc448b7d6e16de42bdd0cbab70ee94f
+      internalID: 1044701514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_91
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 728
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a023eb9b03274419fbcb60685c3453
+      internalID: -451312349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_92
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 730
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7db74d5df98bfb4e8acb1722387c838
+      internalID: 641349098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 722
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92331e7a3b176a438d4e77325719fb5
+      internalID: 848144747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_94
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 722
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d884983a67104418cca32dfe0cc9a0
+      internalID: -1995444150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_95
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 728
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeb1ba3e114e33428736623c0ff727a
+      internalID: 1751636035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_96
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 675
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885763b7a99eb1a4498c67d7377d68d3
+      internalID: -1448168267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_97
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 685
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b1580f7e0d8db4e88813a7d9122c89
+      internalID: -1122618656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_98
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 689
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4d0d9c36403a645852a9c1c3b8c862
+      internalID: 1302803521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_99
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 699
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb98146d46d5cf046a63173c6255f22d
+      internalID: 1535969642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_100
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 706
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dea6ad16a8bec4eaee322fe091d6bc
+      internalID: 1112144074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 687
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4dcd8f16767f94eb4ff568d4145128
+      internalID: -315513826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_102
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 675
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecde7c240ceda349937232ea6bd88ab
+      internalID: -2105291534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_103
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 662
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8253e3dbd2a6ad4da26a3bad694aee1
+      internalID: -1280527748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_104
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 662
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d7e3294fb838342b041762a21d96f4
+      internalID: -1924246429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_105
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 662
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46aa83ba3106a474fb19465cecac4334
+      internalID: -1785688102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_106
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 663
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f685ca5872a93a49a8e1739d4e312d2
+      internalID: 389180620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_107
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 662
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099c9d3f34108b749a0f267b9e7e2ab2
+      internalID: 221870511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_108
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 673
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9bff4a9e23875449b7e25179b26c5e
+      internalID: 1334582948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_109
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 647
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd7a72b2c8a1ef4ea3f83d6f32c4cb5
+      internalID: -1389049546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_110
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 657
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda7af5ceb7699841ba729eb549adc35
+      internalID: 1817346778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_111
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 673
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0e18bbd3c6b2142a352fcc26bf6aa1
+      internalID: 1125325841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_112
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 673
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f5d85aa5a26aa4f9aa0d4f9fc1252b
+      internalID: 2072518668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_113
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 670
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb31af3138038214c9c98619ff5d69dd
+      internalID: 30633772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_114
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 669
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515db02ad1f5ef5419b0cd3e2688e64b
+      internalID: 1638213323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_115
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 664
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca81c4e656f2a7a419cbba8668c39901
+      internalID: 1419869314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_116
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 634
+        width: 26
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb5f01318108834c826892d2f1ef191
+      internalID: 872793025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_117
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 648
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3019fe42ce9fe3743a69b52ec44403c8
+      internalID: -1144251472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_118
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 639
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10a2ca5a55d4a745a7b24aec252ce41
+      internalID: -106799527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_119
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 637
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a6a0164689ea4438d85434b864b5f7
+      internalID: -1212742494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_120
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 609
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46761b30823ba9b4eb859103c0a899a8
+      internalID: -1129412602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_121
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 623
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8178b2af24c4b9a42bd6f6fa2c21b2fe
+      internalID: -1625245630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_122
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 639
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56835108805f24d459c3e704aa15d1e2
+      internalID: 331872298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_123
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 637
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f887ed3d71d0c234d858c424ccf3ed6a
+      internalID: 981741049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_124
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 627
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a593252490a72419ddbefe42f1d39f
+      internalID: 502728855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_125
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 627
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758b5017a16721d47ab20bea02746052
+      internalID: 1903116658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_126
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 622
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e78f76fe3210945bb9f3487c134d1e
+      internalID: -329140466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_127
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 606
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c576db9c0003ad24e96f6265bbea7694
+      internalID: -1739811071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_128
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 614
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e452c13fac09e4db4d0c352af33fda
+      internalID: 1173087951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_129
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 602
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ffa2b9fe2adad409fa06838c9a221f
+      internalID: -1762462405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_130
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 602
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1f6527381a25e49bf8165e0fc56c8e
+      internalID: -1878197222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_131
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 605
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7d7398134ea1240a9678a97d4e663c
+      internalID: -531742324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_132
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 575
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad687e5a2e99ee4ca0f5ccf84bb0bd0
+      internalID: -1952440997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_133
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 566
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330b7e2544e9c794781dabb7c6789cbf
+      internalID: -404844260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_134
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 554
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40b96879bb02d2468b280b9785a2667
+      internalID: 1706863135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_135
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 583
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6a6cf4d5396e448be28006ee8543e2
+      internalID: -1229380564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_136
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 585
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0f9969a3749534194b32dff9d7c65d
+      internalID: 1879724534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_137
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 581
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bcdeb8a9c4bd64e95d731863bcaab2
+      internalID: -329933373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_138
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 577
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcdd3952c8d30b4bbf407050f230466
+      internalID: 385753535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_139
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 581
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c857823575231419fdd27aba349e32
+      internalID: 1425739197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_140
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 581
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60326542acf4217418089e3249b5cf97
+      internalID: 1539505829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_141
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 586
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add541860ad976544a21eda47c0d8bcb
+      internalID: 1752268049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_142
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 563
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bd5434a5250ce4f80888edd0e41061
+      internalID: 1421373021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_143
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 542
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8742e979e2694e4993a9596337cfdd3
+      internalID: -60629322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_144
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 539
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04814b5855a79944ca40d9b2446b1211
+      internalID: 1889527261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_145
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 534
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959eb3ca43355c84e8456ba3561963bd
+      internalID: 1080383538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_146
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 534
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd101d585d9d3b043b9dbe4085136945
+      internalID: 606842971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_147
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 563
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f9e9abae13a5f4e9e5bd34f55ccfa4
+      internalID: 1381339247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_148
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 571
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d703fec6f8566e44806db56b64a2500
+      internalID: 575105399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_149
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 559
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5948a8b5f9df4364197547ecb478d945
+      internalID: -424756048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_150
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 552
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32b6b5a571dc7348a87ea33dd4a632f
+      internalID: 199892659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_151
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 545
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5ede50be72b174eaa08bde9bb8fa70
+      internalID: 250804698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_152
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 539
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710235bc578367d46b9d16b3c363c0d4
+      internalID: 1376738316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_153
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 555
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7273b2a6dc475c74e98b7a9f8a82fadc
+      internalID: 611321224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_154
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 527
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19cad87e94b5fb4aacdf86560f43378
+      internalID: 359186109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_155
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 514
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9f8f56f3c4cdd4390b81fd9fe6e441
+      internalID: 535248750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_156
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 502
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa4ffe5cc9481849be08fdd50da4e3d
+      internalID: 513365661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_157
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 511
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dc16f4061e5564a891b492dde3d51a
+      internalID: -1315252213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_158
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 517
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c3353f9338a564197c9cadf46035b8
+      internalID: -1479753370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_159
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 526
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77efb4624c25f824a85b428af8fd8af2
+      internalID: 697781114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_160
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 511
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7d4a0570e66a243b38a745c09720ad
+      internalID: -997065417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_161
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 511
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0096c4ffe5ee8a4dad225fe2ca46e6c
+      internalID: 1375124779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_162
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 511
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc1e6d806689e94789326813319de40
+      internalID: -164990952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_163
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 511
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b6cf304388acd40811c0144fcf38d5
+      internalID: -1207681251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_164
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 511
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0435dc6814df7c4d9ce82bb8fbfbdec
+      internalID: -1536910739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_165
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 502
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5535fc931c8c454aa775636dc54536c
+      internalID: 1142935077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_166
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 494
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f819202c38a58cc40a891d100cea34a5
+      internalID: 1662440608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_167
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 482
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8c79a7ab925154eb5f87fdd46a0845
+      internalID: -848351440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_168
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 470
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b238047bdc12ff54c9dbf91d8c672af5
+      internalID: -1044689178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_169
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 466
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b211bdb821d244b825975f73f8be68
+      internalID: -435473383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_170
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 464
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b99aef9a7d09b4dac1b85252d226e4
+      internalID: -1760058538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_171
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 460
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4bf8c6965bd07408655aa68d5efcf6
+      internalID: -1235422565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_172
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 460
+        width: 13
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8033f294cba5fa41b15e05dd0e748d6
+      internalID: -465187010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_173
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 477
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b75febfd47734bb26979ebfc0f869
+      internalID: -2014406226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_174
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 479
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f765b606041fb2942872d8f49f857b5c
+      internalID: -1787144344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_175
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 489
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18707d326c84d294a9d7903f363cc04b
+      internalID: 1199998130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_176
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 493
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4631d3fac01499b42a7ffb3e0b41c767
+      internalID: 862226786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_177
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 477
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584ea853c516e2a4d827ed957e799473
+      internalID: 8124163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_178
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 477
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ab1db566e76454c8b0032166cc57e5
+      internalID: 1060739181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_179
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 474
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d67f76a0feeeab46827ee923a14e2b6
+      internalID: 1372033548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_180
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 473
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfab341a5dba354b87190045d6fe92d
+      internalID: -674502125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_181
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 454
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa703f840b7e56442a371d68bfadee2c
+      internalID: 1113347306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_182
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 442
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969d5001ac831734bbad239db0f6e168
+      internalID: 1597056643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_183
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 443
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c79ddb6b9cefc469ac1a17f2c1bacd
+      internalID: -299985902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_184
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 441
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e99f0d28ed1aa4ab50ae6a4cc242ee
+      internalID: 1187577172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_185
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 451
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4316ab99640b846b90b2dc3a2c4d82
+      internalID: -1807343366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_186
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 461
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a212c587445bd3f42a1558594980a7db
+      internalID: 479026568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_187
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 443
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fe24423cad3cf44afbc2f8410f2ced
+      internalID: 1323186791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_188
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 441
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26444187f3c616046998aba442851d20
+      internalID: 1349557391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_189
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 431
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39b1cccfd2122a408c599bdceef1081
+      internalID: 1074600026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_190
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 431
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46112900dca8d04bbab8609985296cf
+      internalID: 1413337935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_191
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 413
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1646b61b1a65d454d970928d17a12776
+      internalID: -51874756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_192
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 427
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b104fdd31309b314ebdb646a33da176f
+      internalID: -1504436549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_193
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 409
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672a0982399b9dc469632212fc112eea
+      internalID: -2140164260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_194
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 323
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e7d50dd36f39b41aa759da5999fe5b
+      internalID: 515715845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_195
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 341
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b6ba3002b6a1d4f9c1cb5bc9a07514
+      internalID: -935235754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_196
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 342
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c191f099d8c3c41bcc31954a3fd267
+      internalID: -1625615845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_197
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 341
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f11820886cbde44ea201e2d8ed9a64c
+      internalID: -669276392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_198
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 341
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041ffbb7499d64e4fbd44cb206d25f4c
+      internalID: -682003489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_199
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 341
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bc49dd7a0192640a1627855990fc01
+      internalID: -499410591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_200
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 341
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bf5a8a30990ed46bd59c13df006a6f
+      internalID: -2137551127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_201
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 343
+        width: 75
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e83a26e62dd1854cbc131dafadd368a
+      internalID: -1214016277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_202
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 361
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ccc6ee865510e40970676a7433c295
+      internalID: 1261365181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_203
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 361
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232c8a316732faa459fc4f33a375b647
+      internalID: 697674815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_204
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 361
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9430ec4ba230d469747ebb5fde3a1f
+      internalID: 128221635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_205
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 362
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e2284afd27acb4b8a948218261abe5
+      internalID: -540398531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_206
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 361
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da9cd178bba6b84b8d5bd09e04438c6
+      internalID: 153174825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_207
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 361
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac437725d93b46c4ea6f4176a785210c
+      internalID: -624894301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_208
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 361
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058532d5c156d4a4ca9592986240c31b
+      internalID: 183340118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_209
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 258
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2f234863b37794a898e5227c71eb38
+      internalID: 1398370651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_210
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 275
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04b2d5d603d04b47b5ab705f02d4289
+      internalID: 1704635304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_211
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 275
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b869ba07d6568a4bb2e52b146ce24c2
+      internalID: 1033714011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_212
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 276
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af32cc24686fee64f95285be6655b084
+      internalID: -665234151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_213
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 277
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74763f4c08e0e8e4a968877aa69e970a
+      internalID: 532370411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_214
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 277
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245c51662243b344f805665d8ad6c2a3
+      internalID: 290519683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_215
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 292
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaddb25898e5a924e8babb397ebbdf1e
+      internalID: -217087542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_216
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 268
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497dc08ec34bdcf44947601ce0c78dba
+      internalID: -16137902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_217
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 279
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fd2b5916707fd4fa8897aa112b605d
+      internalID: 173016646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_218
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 287
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa240f2fede2b6a4ea3e776af65c6a1a
+      internalID: 365935381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_219
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 278
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad5eee37b98d10489c79d34b0f211a5
+      internalID: 671027203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_220
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 278
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1396499a929a7604b9c5fcc38c72faea
+      internalID: 146843547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_221
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 287
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe6e0845d5068b4cb095ce074714db8
+      internalID: -965280862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_222
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 277
+        width: 30
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f1e9c2f215dc1498be9a68362ffd55
+      internalID: -602002403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_223
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 277
+        width: 31
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe4a4b2861c679438552ce7fd157faa
+      internalID: -777802016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_224
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 272
+        width: 31
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8bff468dac79943b6b30badee7b44f
+      internalID: -1078006912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_225
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 192
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97a65dbb7e2b8347a2597b88a99c5e0
+      internalID: -746451506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_226
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 201
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed539ecc13acd546936a99ef357d7f9
+      internalID: 498773819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_227
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 202
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941c816a77507314f8423788fc6a5e88
+      internalID: 1142075806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_228
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 200
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc15c3892297ba45a227e55ca2da09d
+      internalID: -1725458627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_229
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 229
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe81f7df5fa204b4b998e814a215b44d
+      internalID: 1837046955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_230
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 232
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006c9a54326eb3846870f4e852ff63be
+      internalID: -1149849752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_231
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 235
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031ec3eee064003419774fde62b789b1
+      internalID: 1299149101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_232
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 240
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e685506d97f8c3e4b83023f0023bd95d
+      internalID: 153036072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_233
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 192
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc11f2e952a2d5a448b60ddd0ed34240
+      internalID: 239096856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_234
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 201
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee7bae42262d824997e7c2068b23555
+      internalID: -2110957973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_235
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 213
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9c0f8e3a2db0e43bdb44084127de98
+      internalID: 197651822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_236
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 188
+        width: 30
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15df6be2dc1e9e743b01880c7a90babe
+      internalID: 1184198240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_237
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 218
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe2a8cb828ac9240af60b52dd538ec4
+      internalID: 1078225849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_238
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 239
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92868409eb2fa1447888dddac8c763c6
+      internalID: -1494302332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_239
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 243
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcda113aa0029b4fb2069e477dd4c93
+      internalID: 521146103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_240
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 245
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab19c433935450e4c9027f7fda2fd94a
+      internalID: 831828378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_241
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 165
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630874571807a7244a66493e9377be95
+      internalID: -230003054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_242
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 193
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8aca2c67c4a9f47ba40f6e8f50d8e6
+      internalID: 1493503213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_243
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 194
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50524a26ab2374b48b3c3c1f8a3083e1
+      internalID: 1546977907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_244
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 201
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477e476d1eed8754894ec91de086ccd7
+      internalID: 1598089483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_245
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 140
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a62d154b1eb7a44846d9e30d52f7bf
+      internalID: -142396542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_246
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 164
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3def270aa2eb41e4ea9ccbce9e2d4302
+      internalID: 245414402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_247
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 148
+        width: 15
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c989ca9df6a09af46a2642f8f596e792
+      internalID: -2009820846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_248
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 196
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bdf1c20bdcdad49aea98d57614d347
+      internalID: -993470591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_249
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 199
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23208e971ce4b14192b96d98a856f28
+      internalID: -1023624306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_250
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 115
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb637c6c1b08a18458ad306f4128dc8b
+      internalID: -1945957768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_251
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 156
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc983ca84b7465048af0b3f75f33a03b
+      internalID: 2097169685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_252
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 131
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bd127198964834e804cd5c303c51cd
+      internalID: -642000779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_253
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 125
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a54a62489610b84283ab4eabbe98971
+      internalID: -2051215168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_254
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 126
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f8cbe68015fc94b9fd2fd277507874
+      internalID: 1616803773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_255
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 84
+        width: 15
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5266d89753c89d42bb07628b5213975
+      internalID: 1714143608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_256
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 149
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d929de468cf2eda47bcdf22778033b26
+      internalID: 523635141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_257
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 105
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbd15a94f7a04d468a913186d87d1fa
+      internalID: -173526898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_258
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 148
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d224f132e0950c40993e791721e3354
+      internalID: -370706144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_259
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 127
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532006af9312d474b9822ba60df8db99
+      internalID: -793166329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_260
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 119
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ac1535db6b2d74bab62cfeb1a3406b
+      internalID: 269890895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_261
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 141
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899e4364be0536a409e377d25b3ba531
+      internalID: -1591647794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_262
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 57
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bde6e77856faa47a7246f4a2f19720
+      internalID: 1338622250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_263
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 63
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57b80231347d974280e235eaaa1ce8d
+      internalID: 1511598997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_264
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 65
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d167f8e97f4dd2a42b87d0b447decbba
+      internalID: -422789056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_265
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 119
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9506b7f50d349314cafcca0224e659ec
+      internalID: 1840133659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_266
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 51
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c288b98a8fc3087469c6589611f4d823
+      internalID: -1948270101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_267
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 49
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8563848cb6cedb241b27f6d80d1aaccd
+      internalID: 2129968606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_268
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 31
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f60ae706117d948824e0c5c743dbb4
+      internalID: -181822251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_269
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 60
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18223247928103641af515c85212acfe
+      internalID: 714224212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_270
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 67
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dc58c59a544da41b720833ea46a1d2
+      internalID: 1390515864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_271
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 71
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfaaf902c2c09a4ab04dd3f100550f7
+      internalID: 1088219533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_272
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 59
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca99f644f30b23489223068f3645bc9
+      internalID: 1851399663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_273
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 71
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a941ae7f7078942a6d4fc4beccfa6e
+      internalID: -391095473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_274
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 25
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503960ba6b3ef2a42b77f1d1cd188f29
+      internalID: 1360521145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_275
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 29
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c6fc6226c045f47af358ad18857fb5
+      internalID: 692336223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_276
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 26
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29957315dac9794c94f1c1b198c8f8b
+      internalID: -1617411292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Cookie Run OvenBreak - Fonts_277
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 35
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87277987192476041992cb94f5a26a57
+      internalID: -187426101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Cookie Run OvenBreak - Fonts_117: -1144251472
+      Mobile - Cookie Run OvenBreak - Fonts_251: 2097169685
+      Mobile - Cookie Run OvenBreak - Fonts_130: -1878197222
+      Mobile - Cookie Run OvenBreak - Fonts_78: 1181421557
+      Mobile - Cookie Run OvenBreak - Fonts_65: -1561546464
+      Mobile - Cookie Run OvenBreak - Fonts_83: 1857786580
+      Mobile - Cookie Run OvenBreak - Fonts_12: 100958434
+      Mobile - Cookie Run OvenBreak - Fonts_216: -16137902
+      Mobile - Cookie Run OvenBreak - Fonts_254: 1616803773
+      Mobile - Cookie Run OvenBreak - Fonts_59: -92824687
+      Mobile - Cookie Run OvenBreak - Fonts_208: 183340118
+      Mobile - Cookie Run OvenBreak - Fonts_267: 2129968606
+      Mobile - Cookie Run OvenBreak - Fonts_41: 1708195172
+      Mobile - Cookie Run OvenBreak - Fonts_255: 1714143608
+      Mobile - Cookie Run OvenBreak - Fonts_142: 1421373021
+      Mobile - Cookie Run OvenBreak - Fonts_101: -315513826
+      Mobile - Cookie Run OvenBreak - Fonts_163: -1207681251
+      Mobile - Cookie Run OvenBreak - Fonts_20: 790727499
+      Mobile - Cookie Run OvenBreak - Fonts_55: -1154101648
+      Mobile - Cookie Run OvenBreak - Fonts_165: 1142935077
+      Mobile - Cookie Run OvenBreak - Fonts_122: 331872298
+      Mobile - Cookie Run OvenBreak - Fonts_121: -1625245630
+      Mobile - Cookie Run OvenBreak - Fonts_151: 250804698
+      Mobile - Cookie Run OvenBreak - Fonts_144: 1889527261
+      Mobile - Cookie Run OvenBreak - Fonts_173: -2014406226
+      Mobile - Cookie Run OvenBreak - Fonts_261: -1591647794
+      Mobile - Cookie Run OvenBreak - Fonts_169: -435473383
+      Mobile - Cookie Run OvenBreak - Fonts_23: -1007505358
+      Mobile - Cookie Run OvenBreak - Fonts_203: 697674815
+      Mobile - Cookie Run OvenBreak - Fonts_124: 502728855
+      Mobile - Cookie Run OvenBreak - Fonts_21: 659119088
+      Mobile - Cookie Run OvenBreak - Fonts_94: -1995444150
+      Mobile - Cookie Run OvenBreak - Fonts_206: 153174825
+      Mobile - Cookie Run OvenBreak - Fonts_85: -589253369
+      Mobile - Cookie Run OvenBreak - Fonts_57: 1256965243
+      Mobile - Cookie Run OvenBreak - Fonts_97: -1122618656
+      Mobile - Cookie Run OvenBreak - Fonts_62: 921506138
+      Mobile - Cookie Run OvenBreak - Fonts_11: 148159811
+      Mobile - Cookie Run OvenBreak - Fonts_245: -142396542
+      Mobile - Cookie Run OvenBreak - Fonts_66: -1467793983
+      Mobile - Cookie Run OvenBreak - Fonts_98: 1302803521
+      Mobile - Cookie Run OvenBreak - Fonts_200: -2137551127
+      Mobile - Cookie Run OvenBreak - Fonts_3: 1454027757
+      Mobile - Cookie Run OvenBreak - Fonts_103: -1280527748
+      Mobile - Cookie Run OvenBreak - Fonts_139: 1425739197
+      Mobile - Cookie Run OvenBreak - Fonts_112: 2072518668
+      Mobile - Cookie Run OvenBreak - Fonts_152: 1376738316
+      Mobile - Cookie Run OvenBreak - Fonts_1: 1708726159
+      Mobile - Cookie Run OvenBreak - Fonts_64: -217888627
+      Mobile - Cookie Run OvenBreak - Fonts_123: 981741049
+      Mobile - Cookie Run OvenBreak - Fonts_71: 1450911655
+      Mobile - Cookie Run OvenBreak - Fonts_241: -230003054
+      Mobile - Cookie Run OvenBreak - Fonts_149: -424756048
+      Mobile - Cookie Run OvenBreak - Fonts_147: 1381339247
+      Mobile - Cookie Run OvenBreak - Fonts_49: 1045741175
+      Mobile - Cookie Run OvenBreak - Fonts_89: -941754259
+      Mobile - Cookie Run OvenBreak - Fonts_215: -217087542
+      Mobile - Cookie Run OvenBreak - Fonts_77: -361933921
+      Mobile - Cookie Run OvenBreak - Fonts_180: -674502125
+      Mobile - Cookie Run OvenBreak - Fonts_154: 359186109
+      Mobile - Cookie Run OvenBreak - Fonts_128: 1173087951
+      Mobile - Cookie Run OvenBreak - Fonts_162: -164990952
+      Mobile - Cookie Run OvenBreak - Fonts_237: 1078225849
+      Mobile - Cookie Run OvenBreak - Fonts_238: -1494302332
+      Mobile - Cookie Run OvenBreak - Fonts_204: 128221635
+      Mobile - Cookie Run OvenBreak - Fonts_247: -2009820846
+      Mobile - Cookie Run OvenBreak - Fonts_213: 532370411
+      Mobile - Cookie Run OvenBreak - Fonts_177: 8124163
+      Mobile - Cookie Run OvenBreak - Fonts_268: -181822251
+      Mobile - Cookie Run OvenBreak - Fonts_8: -1545660808
+      Mobile - Cookie Run OvenBreak - Fonts_110: 1817346778
+      Mobile - Cookie Run OvenBreak - Fonts_198: -682003489
+      Mobile - Cookie Run OvenBreak - Fonts_82: -1684648988
+      Mobile - Cookie Run OvenBreak - Fonts_96: -1448168267
+      Mobile - Cookie Run OvenBreak - Fonts_81: 2120319316
+      Mobile - Cookie Run OvenBreak - Fonts_183: -299985902
+      Mobile - Cookie Run OvenBreak - Fonts_274: 1360521145
+      Mobile - Cookie Run OvenBreak - Fonts_90: 1044701514
+      Mobile - Cookie Run OvenBreak - Fonts_95: 1751636035
+      Mobile - Cookie Run OvenBreak - Fonts_109: -1389049546
+      Mobile - Cookie Run OvenBreak - Fonts_189: 1074600026
+      Mobile - Cookie Run OvenBreak - Fonts_249: -1023624306
+      Mobile - Cookie Run OvenBreak - Fonts_263: 1511598997
+      Mobile - Cookie Run OvenBreak - Fonts_178: 1060739181
+      Mobile - Cookie Run OvenBreak - Fonts_273: -391095473
+      Mobile - Cookie Run OvenBreak - Fonts_196: -1625615845
+      Mobile - Cookie Run OvenBreak - Fonts_76: -400385570
+      Mobile - Cookie Run OvenBreak - Fonts_10: -1889730737
+      Mobile - Cookie Run OvenBreak - Fonts_269: 714224212
+      Mobile - Cookie Run OvenBreak - Fonts_75: 1620418394
+      Mobile - Cookie Run OvenBreak - Fonts_225: -746451506
+      Mobile - Cookie Run OvenBreak - Fonts_227: 1142075806
+      Mobile - Cookie Run OvenBreak - Fonts_160: -997065417
+      Mobile - Cookie Run OvenBreak - Fonts_114: 1638213323
+      Mobile - Cookie Run OvenBreak - Fonts_137: -329933373
+      Mobile - Cookie Run OvenBreak - Fonts_5: -1669373568
+      Mobile - Cookie Run OvenBreak - Fonts_233: 239096856
+      Mobile - Cookie Run OvenBreak - Fonts_224: -1078006912
+      Mobile - Cookie Run OvenBreak - Fonts_69: -1831723290
+      Mobile - Cookie Run OvenBreak - Fonts_51: 452401090
+      Mobile - Cookie Run OvenBreak - Fonts_92: 641349098
+      Mobile - Cookie Run OvenBreak - Fonts_7: 389726689
+      Mobile - Cookie Run OvenBreak - Fonts_53: 1889439117
+      Mobile - Cookie Run OvenBreak - Fonts_250: -1945957768
+      Mobile - Cookie Run OvenBreak - Fonts_131: -531742324
+      Mobile - Cookie Run OvenBreak - Fonts_184: 1187577172
+      Mobile - Cookie Run OvenBreak - Fonts_210: 1704635304
+      Mobile - Cookie Run OvenBreak - Fonts_239: 521146103
+      Mobile - Cookie Run OvenBreak - Fonts_105: -1785688102
+      Mobile - Cookie Run OvenBreak - Fonts_186: 479026568
+      Mobile - Cookie Run OvenBreak - Fonts_172: -465187010
+      Mobile - Cookie Run OvenBreak - Fonts_4: 1401269855
+      Mobile - Cookie Run OvenBreak - Fonts_218: 365935381
+      Mobile - Cookie Run OvenBreak - Fonts_44: -618958532
+      Mobile - Cookie Run OvenBreak - Fonts_157: -1315252213
+      Mobile - Cookie Run OvenBreak - Fonts_30: 2062519242
+      Mobile - Cookie Run OvenBreak - Fonts_100: 1112144074
+      Mobile - Cookie Run OvenBreak - Fonts_31: 1097977078
+      Mobile - Cookie Run OvenBreak - Fonts_115: 1419869314
+      Mobile - Cookie Run OvenBreak - Fonts_226: 498773819
+      Mobile - Cookie Run OvenBreak - Fonts_15: 586886551
+      Mobile - Cookie Run OvenBreak - Fonts_181: 1113347306
+      Mobile - Cookie Run OvenBreak - Fonts_48: 1705074710
+      Mobile - Cookie Run OvenBreak - Fonts_205: -540398531
+      Mobile - Cookie Run OvenBreak - Fonts_56: 1868060894
+      Mobile - Cookie Run OvenBreak - Fonts_87: -280554631
+      Mobile - Cookie Run OvenBreak - Fonts_73: 798858970
+      Mobile - Cookie Run OvenBreak - Fonts_50: -1631060131
+      Mobile - Cookie Run OvenBreak - Fonts_46: -1908383495
+      Mobile - Cookie Run OvenBreak - Fonts_175: 1199998130
+      Mobile - Cookie Run OvenBreak - Fonts_134: 1706863135
+      Mobile - Cookie Run OvenBreak - Fonts_199: -499410591
+      Mobile - Cookie Run OvenBreak - Fonts_111: 1125325841
+      Mobile - Cookie Run OvenBreak - Fonts_84: 332293551
+      Mobile - Cookie Run OvenBreak - Fonts_17: 1150251951
+      Mobile - Cookie Run OvenBreak - Fonts_19: -138690522
+      Mobile - Cookie Run OvenBreak - Fonts_168: -1044689178
+      Mobile - Cookie Run OvenBreak - Fonts_148: 575105399
+      Mobile - Cookie Run OvenBreak - Fonts_120: -1129412602
+      Mobile - Cookie Run OvenBreak - Fonts_146: 606842971
+      Mobile - Cookie Run OvenBreak - Fonts_118: -106799527
+      Mobile - Cookie Run OvenBreak - Fonts_155: 535248750
+      Mobile - Cookie Run OvenBreak - Fonts_190: 1413337935
+      Mobile - Cookie Run OvenBreak - Fonts_232: 153036072
+      Mobile - Cookie Run OvenBreak - Fonts_228: -1725458627
+      Mobile - Cookie Run OvenBreak - Fonts_277: -187426101
+      Mobile - Cookie Run OvenBreak - Fonts_217: 173016646
+      Mobile - Cookie Run OvenBreak - Fonts_80: -1398378811
+      Mobile - Cookie Run OvenBreak - Fonts_197: -669276392
+      Mobile - Cookie Run OvenBreak - Fonts_176: 862226786
+      Mobile - Cookie Run OvenBreak - Fonts_60: -1931479675
+      Mobile - Cookie Run OvenBreak - Fonts_230: -1149849752
+      Mobile - Cookie Run OvenBreak - Fonts_91: -451312349
+      Mobile - Cookie Run OvenBreak - Fonts_126: -329140466
+      Mobile - Cookie Run OvenBreak - Fonts_125: 1903116658
+      Mobile - Cookie Run OvenBreak - Fonts_264: -422789056
+      Mobile - Cookie Run OvenBreak - Fonts_86: 1316259799
+      Mobile - Cookie Run OvenBreak - Fonts_188: 1349557391
+      Mobile - Cookie Run OvenBreak - Fonts_211: 1033714011
+      Mobile - Cookie Run OvenBreak - Fonts_235: 197651822
+      Mobile - Cookie Run OvenBreak - Fonts_67: 548220559
+      Mobile - Cookie Run OvenBreak - Fonts_27: 1911620316
+      Mobile - Cookie Run OvenBreak - Fonts_202: 1261365181
+      Mobile - Cookie Run OvenBreak - Fonts_145: 1080383538
+      Mobile - Cookie Run OvenBreak - Fonts_192: -1504436549
+      Mobile - Cookie Run OvenBreak - Fonts_194: 515715845
+      Mobile - Cookie Run OvenBreak - Fonts_9: 1678771018
+      Mobile - Cookie Run OvenBreak - Fonts_185: -1807343366
+      Mobile - Cookie Run OvenBreak - Fonts_70: 1089722782
+      Mobile - Cookie Run OvenBreak - Fonts_167: -848351440
+      Mobile - Cookie Run OvenBreak - Fonts_42: 2078194090
+      Mobile - Cookie Run OvenBreak - Fonts_223: -777802016
+      Mobile - Cookie Run OvenBreak - Fonts_16: 1037677910
+      Mobile - Cookie Run OvenBreak - Fonts_54: -512064875
+      Mobile - Cookie Run OvenBreak - Fonts_102: -2105291534
+      Mobile - Cookie Run OvenBreak - Fonts_35: 1931861302
+      Mobile - Cookie Run OvenBreak - Fonts_119: -1212742494
+      Mobile - Cookie Run OvenBreak - Fonts_242: 1493503213
+      Mobile - Cookie Run OvenBreak - Fonts_93: 848144747
+      Mobile - Cookie Run OvenBreak - Fonts_72: 1458591913
+      Mobile - Cookie Run OvenBreak - Fonts_18: 1042141279
+      Mobile - Cookie Run OvenBreak - Fonts_256: 523635141
+      Mobile - Cookie Run OvenBreak - Fonts_258: -370706144
+      Mobile - Cookie Run OvenBreak - Fonts_272: 1851399663
+      Mobile - Cookie Run OvenBreak - Fonts_207: -624894301
+      Mobile - Cookie Run OvenBreak - Fonts_271: 1088219533
+      Mobile - Cookie Run OvenBreak - Fonts_201: -1214016277
+      Mobile - Cookie Run OvenBreak - Fonts_229: 1837046955
+      Mobile - Cookie Run OvenBreak - Fonts_138: 385753535
+      Mobile - Cookie Run OvenBreak - Fonts_159: 697781114
+      Mobile - Cookie Run OvenBreak - Fonts_37: 1518863423
+      Mobile - Cookie Run OvenBreak - Fonts_170: -1760058538
+      Mobile - Cookie Run OvenBreak - Fonts_127: -1739811071
+      Mobile - Cookie Run OvenBreak - Fonts_231: 1299149101
+      Mobile - Cookie Run OvenBreak - Fonts_13: -931210370
+      Mobile - Cookie Run OvenBreak - Fonts_40: -1531098102
+      Mobile - Cookie Run OvenBreak - Fonts_68: -112321495
+      Mobile - Cookie Run OvenBreak - Fonts_156: 513365661
+      Mobile - Cookie Run OvenBreak - Fonts_174: -1787144344
+      Mobile - Cookie Run OvenBreak - Fonts_187: 1323186791
+      Mobile - Cookie Run OvenBreak - Fonts_270: 1390515864
+      Mobile - Cookie Run OvenBreak - Fonts_243: 1546977907
+      Mobile - Cookie Run OvenBreak - Fonts_36: -862002458
+      Mobile - Cookie Run OvenBreak - Fonts_63: -859157993
+      Mobile - Cookie Run OvenBreak - Fonts_260: 269890895
+      Mobile - Cookie Run OvenBreak - Fonts_45: 365648523
+      Mobile - Cookie Run OvenBreak - Fonts_132: -1952440997
+      Mobile - Cookie Run OvenBreak - Fonts_29: -1246565374
+      Mobile - Cookie Run OvenBreak - Fonts_33: -1485183970
+      Mobile - Cookie Run OvenBreak - Fonts_52: 2064822935
+      Mobile - Cookie Run OvenBreak - Fonts_116: 872793025
+      Mobile - Cookie Run OvenBreak - Fonts_79: 944779867
+      Mobile - Cookie Run OvenBreak - Fonts_129: -1762462405
+      Mobile - Cookie Run OvenBreak - Fonts_141: 1752268049
+      Mobile - Cookie Run OvenBreak - Fonts_166: 1662440608
+      Mobile - Cookie Run OvenBreak - Fonts_214: 290519683
+      Mobile - Cookie Run OvenBreak - Fonts_236: 1184198240
+      Mobile - Cookie Run OvenBreak - Fonts_158: -1479753370
+      Mobile - Cookie Run OvenBreak - Fonts_240: 831828378
+      Mobile - Cookie Run OvenBreak - Fonts_22: -248614577
+      Mobile - Cookie Run OvenBreak - Fonts_38: 1762159982
+      Mobile - Cookie Run OvenBreak - Fonts_253: -2051215168
+      Mobile - Cookie Run OvenBreak - Fonts_25: -1453340540
+      Mobile - Cookie Run OvenBreak - Fonts_182: 1597056643
+      Mobile - Cookie Run OvenBreak - Fonts_39: -1309560482
+      Mobile - Cookie Run OvenBreak - Fonts_257: -173526898
+      Mobile - Cookie Run OvenBreak - Fonts_259: -793166329
+      Mobile - Cookie Run OvenBreak - Fonts_161: 1375124779
+      Mobile - Cookie Run OvenBreak - Fonts_219: 671027203
+      Mobile - Cookie Run OvenBreak - Fonts_61: -465098657
+      Mobile - Cookie Run OvenBreak - Fonts_171: -1235422565
+      Mobile - Cookie Run OvenBreak - Fonts_221: -965280862
+      Mobile - Cookie Run OvenBreak - Fonts_222: -602002403
+      Mobile - Cookie Run OvenBreak - Fonts_26: -639913392
+      Mobile - Cookie Run OvenBreak - Fonts_266: -1948270101
+      Mobile - Cookie Run OvenBreak - Fonts_107: 221870511
+      Mobile - Cookie Run OvenBreak - Fonts_108: 1334582948
+      Mobile - Cookie Run OvenBreak - Fonts_150: 199892659
+      Mobile - Cookie Run OvenBreak - Fonts_58: 727242288
+      Mobile - Cookie Run OvenBreak - Fonts_28: -121212752
+      Mobile - Cookie Run OvenBreak - Fonts_43: -40470453
+      Mobile - Cookie Run OvenBreak - Fonts_99: 1535969642
+      Mobile - Cookie Run OvenBreak - Fonts_143: -60629322
+      Mobile - Cookie Run OvenBreak - Fonts_104: -1924246429
+      Mobile - Cookie Run OvenBreak - Fonts_164: -1536910739
+      Mobile - Cookie Run OvenBreak - Fonts_153: 611321224
+      Mobile - Cookie Run OvenBreak - Fonts_252: -642000779
+      Mobile - Cookie Run OvenBreak - Fonts_140: 1539505829
+      Mobile - Cookie Run OvenBreak - Fonts_234: -2110957973
+      Mobile - Cookie Run OvenBreak - Fonts_246: 245414402
+      Mobile - Cookie Run OvenBreak - Fonts_179: 1372033548
+      Mobile - Cookie Run OvenBreak - Fonts_32: -952548226
+      Mobile - Cookie Run OvenBreak - Fonts_113: 30633772
+      Mobile - Cookie Run OvenBreak - Fonts_262: 1338622250
+      Mobile - Cookie Run OvenBreak - Fonts_6: 1219466021
+      Mobile - Cookie Run OvenBreak - Fonts_276: -1617411292
+      Mobile - Cookie Run OvenBreak - Fonts_88: 536483677
+      Mobile - Cookie Run OvenBreak - Fonts_209: 1398370651
+      Mobile - Cookie Run OvenBreak - Fonts_275: 692336223
+      Mobile - Cookie Run OvenBreak - Fonts_248: -993470591
+      Mobile - Cookie Run OvenBreak - Fonts_220: 146843547
+      Mobile - Cookie Run OvenBreak - Fonts_195: -935235754
+      Mobile - Cookie Run OvenBreak - Fonts_0: -142051265
+      Mobile - Cookie Run OvenBreak - Fonts_34: 169011129
+      Mobile - Cookie Run OvenBreak - Fonts_244: 1598089483
+      Mobile - Cookie Run OvenBreak - Fonts_47: 819670469
+      Mobile - Cookie Run OvenBreak - Fonts_14: 692624588
+      Mobile - Cookie Run OvenBreak - Fonts_74: 256546629
+      Mobile - Cookie Run OvenBreak - Fonts_133: -404844260
+      Mobile - Cookie Run OvenBreak - Fonts_136: 1879724534
+      Mobile - Cookie Run OvenBreak - Fonts_106: 389180620
+      Mobile - Cookie Run OvenBreak - Fonts_135: -1229380564
+      Mobile - Cookie Run OvenBreak - Fonts_24: 406673665
+      Mobile - Cookie Run OvenBreak - Fonts_2: 724389833
+      Mobile - Cookie Run OvenBreak - Fonts_193: -2140164260
+      Mobile - Cookie Run OvenBreak - Fonts_265: 1840133659
+      Mobile - Cookie Run OvenBreak - Fonts_212: -665234151
+      Mobile - Cookie Run OvenBreak - Fonts_191: -51874756
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
